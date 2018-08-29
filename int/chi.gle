@@ -1,0 +1,28 @@
+dat$="chi"
+CNM$="1_"+dat$
+WIM$="2_"+dat$
+WNM$="3_"+dat$
+DC$="4_"+dat$
+
+size 15 11
+begin graph
+      data CNM$ d1
+      data WIM$ d2
+      data WNM$ d3
+      data DC$ d4
+      title dat$
+      yaxis min 0
+      d1 line smooth color blue
+      d2 line smooth color red
+      d3 line smooth color green
+      d4 line smooth color black
+end graph
+
+begin key
+      position tl
+      nobox
+      text "CNM" line color blue
+      text "WIM" line color red
+      text "WNM" line color green
+      text "DC" line color black
+end key

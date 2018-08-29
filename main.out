@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter.1}{Introduzione}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Scoperta e modelli}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Perch\351 studiare l'emissione anomala?}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{La polvere interstellare e la sua emissione}{}% 4
+\BOOKMARK [1][-]{section.2.1}{La polvere interstellare}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.1.1}{Composizione}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Emissione anomala}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Emissione di dipolo}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Distribuzione delle dimensioni dei grani}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.3}{Momento di dipolo dei grani}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.4}{Distribuzione delle velocit\340 angolari}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Meccanismi di eccitazione e smorzamento}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Collisione con atomi neutri}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Collisioni con ioni}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.3}{Plasma drag}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.4}{Emissione infrarossa e anomala}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.5}{Emissione fotoelettrica}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.6}{Formazione di H2 sulla superficie del grano}{section.2.3}% 18
+\BOOKMARK [0][-]{chapter.3}{Studio dell'emissione anomala con il codice SpDust}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Il codice SpDust}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.2}{Dipendenza dello spettro dai parametri fisici}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.2.1}{Momento di dipolo intrinseco}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.2}{Intesit\340 della radiazione incidente}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.3}{Temperatura della nube}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.4}{Efficienza del processo di formazione di H2}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.5}{Frazione di idrogeno molecolare}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.6}{Densit\340 numerica del gas}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.7}{Effetto della ionizzazione}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.8}{Effetto dell'assenza di ioni nei risultati del codice}{section.3.2}% 29
+\BOOKMARK [0][-]{chapter.4}{Conclusione}{}% 30

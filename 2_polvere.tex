@@ -1,0 +1,340 @@
+\chapter{La polvere interstellare e la sua emissione}
+
+\section{La polvere interstellare}
+
+L'evidenza della presenza di particelle di polvere nello spazio interstellare risale a oltre 80 anni fa (\cite{Trumpler}) ed è stata dedotta dal confronto tra le distanze di alcuni ammassi aperti con le loro luminosità, ricavando un tasso di assorbimento della luce di $\approx0.7$ mag kpc$^{-1}$. Si trova anche una discrepanza tra gli indici di colore previsti e osservati di stelle. Questa differenza è chiamata ``color excess'':
+
+\begin{equation}
+E_{B-V}=(B-V)_{\text{osservato}}-(B-V)_{\text{intrinseco}}.
+\end{equation}
+
+In particolare, Trumpler nota come l'indice di colore, una volta mediato su una consistente popolazione di stelle, aumenti con la distanza, un fenomeno chiamato \textit{reddening}. I grani di polvere infatti disperdono maggiormente la radiazione a bassa lunghezza d'onda a causa delle loro dimensioni ridotte (3.5--100\,\AA{}).
+
+L'emissione termica infrarossa della polvere costituisce il $~30\%$ della luminosità della Via Lattea; eppure, solo a partire dagli anni '90 iniziò uno studio sistematico delle sue proprietà. I grani inoltre partecipano alla formazione delle stelle: schermano il gas dalla radiazione esterna riducendone la ionizzazione e velocizzando così il processo di formazione di nuclei protostellari.
+Dal punto di vista chimico la superficie dei grani funge da catalizzatore per la formazione di H$_{2}$ e altre semplici molecole\footnote{Questo processo può inoltre mettere in rotazione il grano.}, che i grani poi schermano dalla radiazione che le dissocerebbe.
+
+\subsection{Composizione}
+La natura dei grani di polvere rimane oggetto di dibattito. Una loro osservazione diretta non è possibile in quanto la materia che giunge sulla terra tramite meteoriti non è rappresentativa del mezzo interstellare. Possiamo però ricavare informazioni dalle proprietà ottiche della polvere, ad esempio dal comportamento spettrale dell'estinzione.
+
+L'estinzione è quantificata dalla magnitudine
+\begin{equation}
+A_{\lambda}=2.5\log_{10}(F_{\lambda}^{0}/F_{\lambda}),
+\end{equation}
+dove $F_{\lambda}$ e $F_{\lambda}^{0}$ rappresentano rispettivamente la densità di flusso misurata e quella che si misurerebbe senza il fenomeno dell'estinzione.
+Si preferisce però utilizzare la quantità adimensionale
+\begin{equation}
+R_{\lambda}=A_{\lambda}/(A_{B}-A_{V}),
+\end{equation}
+che ha il vantaggio di non dipendere dalla distanza. $A_{B}$ e $A_{V}$ si riferiscono all'estinzione che si osserva coi filtri B e V. Dalla definizione si può notare che più l'estinzione è efficace più $R_{\lambda}$ è alto.
+Osservazioni dei satelliti OAO-2, \textit{Copernicus} e TD-1 (\cite{OAO}) mostrano uno spiccato assorbimento a $\lambda\approx2175$\AA{}, oltre al fatto che la dispersione aumenta verso lunghezze d'onda minori.
+\textcite{Seaton} ha mostrato che la curva di estinzione media può essere descritta da semplici espressioni nella variabile $x=1/\lambda$: in particolare, il picco è ben descritto da una Lorentziana (vedi Fig \ref{fig:seat}).
+
+\begin{figure}
+\centering
+\includegraphics{seaton/seat}
+\caption{Curva di estinzione in funzione dell'inverso della lunghezza d'onda: nel grafico è rappresentato il modello analitico ricavato da \textcite{Seaton} in grado di riprodurre i dati raccolti dal satellite OAO-2. Si può notare il picco Lorentziano in corrispondenza di $\lambda=2175$\,\AA{}.}
+\label{fig:seat}
+\end{figure}
+
+La grafite mostra un simile comportamento nel suo spettro di assorbimento. Nella grafite gli atomi di carbonio sono legati in un esagono: 3 dei 4 elettroni di valenza di ogni atomo sono impegnati in questo legame mentre il quarto è posizionato in un orbitale $\pi$ delocalizzato sull'anello. La transizione allo stato eccitato $\pi\rightarrow\pi^{*}$ è responsabile dell'assorbimento vicino a 2175\,\AA{}. Il profilo del picco è tuttavia diverso, per questo il modello preferito consiste nell'assumere che nella polvere siano presenti idrocarburi aromatici policiclici (PAHs). I PAHs mantengono la struttura ad anello della grafite ma, presentandosi in varie forme e composizioni, possono riprodurre il profilo osservato \parencite{WD01a}. Possono essere sia piccole molecole che grandi agglomerati, con un numero di atomi di carbonio che varia da 20 a $10^{5}$. La quantità di PAHs necessaria per l'estinzione osservata è compatibile \parencite[p. 297]{WD01a} con l'abbondanza stimata di atomi di carbonio nel mezzo interstellare.
+
+Altri studi \parencite{Forrest} sulle proprietà ottiche della polvere mostrano comportamenti riproducibili da silicati e, in misura minore, altre molecole. Tuttavia nel modello di emissione anomala adottato gli idrocarburi aromatici sono considerati i maggiori responsabili.
+
+\section{Emissione anomala}
+
+\subsection{Emissione di dipolo}
+
+Come anticipato, i grani emettono perché possiedono un momento di dipolo e possono ruotare. Un dipolo elettrico $\boldsymbol{\mu}$ che ruota classicamente\footnote{\textcite{DL98b} ha mostrato che la trattazione classica è applicabile anche ai grani più piccoli, per i quali $L\approx70\hbar$.} con velocità angolare $\boldsymbol{\omega}$ irradia energia elettromagnetica a una frequenza $\nu=\omega/2\pi$ con potenza media
+\begin{equation}
+\label{potenza}
+P=\frac{2}{3c^{3}}\mu_{\perp}^{2}\omega^{4}
+\end{equation}
+(sistema cgs), dove $\mu_{\perp}$ è la componente di $\boldsymbol{\mu}$ perpendicolare a $\boldsymbol{\omega}$. Come si può notare la componente parallela non contribuisce alla radiazione.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\linewidth]{immagini/grain}
+\caption{Un grano di forma irregolare, con vettori velocità angolare e momento di dipolo che formano un angolo $\theta$.}
+\label{fig:grain}
+\end{figure}
+
+
+È importante sottolineare che la maggior parte dei PAHs sono planari e simmetrici, quindi privi di momento di dipolo intrinseco. La natura polare emerge da difetti nella struttura molecolare, infatti ci si aspetta che i grani simmetrici non siano la norma nello spazio interstellare \parencite[p.160]{DL98b}. Una semplice sostituzione (ad esempio C\,$\rightarrow$\,N o H\,$\rightarrow$\,OH$^-$) rompe la simmetria e introduce un momento di dipolo. Sono possibili anche modifiche strutturali: se si introduce un pentagono nella struttura esagonale dei PAHs il grano da planare e apolare diventa tridimensionale e polare. Inoltre è probabile che i grani si uniscano in agglomerati complessi e asimmetrici. \textcite{DL98b} stima il momento di dipolo quadratico medio per atomo $\beta^{2}=\left< \mu_{i}^2 \right>/N_{\mathrm{at}}$ considerando la polarità dei legami ritenuti più diffusi nella polvere interstellare, arrivando ad un valore di $\beta\approx0.4$\,debye. Tuttavia ammette che la stima potrebbe essere non accurata perciò $\beta$ dovrebbe essere ritenuto un parametro variabile nel modello.
+
+Se un grano è asimmetrico, anche se perfettamente conduttivo, avrà in generale un baricentro di carica diverso dal baricentro di massa; ciò risulta in un momento di dipolo addizionale quando il grano è carico. Questo è stato dimostrato da \textcite{Purcell}, che stima la separazione tra i baricentri essere intorno a 1\% del raggio medio del grano. In definitiva un grano con dipolo intrinseco $\boldsymbol{\mu_{i}}$, con carica $Ze$ e vettore di separazione tra i baricentri $\boldsymbol{\epsilon}a$ avrà un momento di dipolo totale
+\begin{equation}
+\boldsymbol{\mu}=\boldsymbol{\mu}_{i}+\boldsymbol{\epsilon}aZe,
+\end{equation}
+con $\lvert\boldsymbol{\epsilon}\rvert=0.01$.
+
+L'emissività è data da
+\begin{equation}
+\label{j}
+\frac{j_{\nu}}{n_{\mathrm{H}}}=\int_{a_{\mathrm{min}}}^{a_{\mathrm{max}}}\!\mathrm{d}a\frac{1}{n_{\mathrm{H}}}\frac{\mathrm{d}n_{\mathrm{gr}}}{\mathrm{d}a}f_{a}(\omega)\frac{4\pi}{3c^{3}}\mu_{a\perp}^{2}\omega^{6},
+\end{equation}
+dove $a_{\mathrm{min}}=3.5$\,\AA{} e $a_{\mathrm{max}}=100$\,\AA{}. Il limite superiore è preso da \textcite{Hoyle}, che ha mostrato che l'emissione è importante solo per grani con $a\leqslant100$\,\AA{}. Il limite inferiore invece è dato dal raggio della molecola discoidale del Coronene (C$_{24}$H$_{12}$), considerato il più piccolo idrocarburo nel mezzo interstellare \parencite[161]{DL98b}.
+Al fine di calcolare l'emissività della polvere per atomo di idrogeno nel gas $j_{\nu}$ [Jy cm$^{2}$ sr$^{-1}$ (atomo di H)$^{-1}$] è inoltre necessario conoscere:
+\begin{enumerate}
+	\item La distribuzione delle dimensioni dei grani di polvere $n_{\mathrm{H}}^{-1}\mathrm{d}n_{gr}/\mathrm{d}a$ (numero di grani di raggio $a$ per atomo di idrogeno).
+	\item Il momento di dipolo in funzione del raggio $a$: $\mu(a)$.
+	\item La distribuzione delle velocità angolari $f_{a}(\omega)$, che dipende sia dalle proprietà del grano che dalle condizioni ambientali. In generale si avrebbe $f_{a}(\boldsymbol{\omega})$, ovvero che la distribuzione dipende anche dalla direzione del vettore $\boldsymbol{\omega}$, tuttavia considereremo isotropi gli ambienti in cui è immersa la polvere, quindi per esempio privi di forti campi elettromagnetici.
+\end{enumerate}
+
+Nei prossimi paragrafi verranno illustrate le assunzioni fatte in \textsc{SpDust} riguardanti appunto la distribuzione delle dimensioni (paragrafo \ref{size}), il momento di dipolo (\ref{dipolo}) e la distribuzione delle velocità angolari (\ref{f}).
+
+\subsection{Distribuzione delle dimensioni dei grani}
+\label{size}
+I PAHs possono assumere varie forme, da lineare a discoidale fino a complesse strutture tridimensionali. Per caratterizzarli si può utilizzare il ``raggio equivalente'' $a$, definito da $V=4\pi a^{3}/3$, ossia il raggio di una sfera con volume uguale al grano.
+Dalla definizione segue che $a$ è strettamente legato al numero di atomi di carbonio nel grano $N_{\mathrm{C}}$; infatti, data la densità della grafite $\rho_{\mathrm{C}}$ e la massa atomica del carbonio $m_{\mathrm{C}}$, si ha:
+\begin{equation}
+N_{\mathrm{C}} \approx \frac{4}{3} \pi a^3 \frac{\rho_{\mathrm{C}}}{m_{\mathrm{C}}} \approx 468 \left(\frac{a}{10^{-7}\,\mathrm{cm}}\right)^3,
+\end{equation}
+dove si è trascurato il contributo in massa dell'idrogeno. Da $N_{\mathrm{C}}$ è possibile stimare $N_{\mathrm{H}}$; il modello di \textcite{DLi} assume
+\begin{equation}
+N_{\mathrm{H}}=
+	\begin{cases}
+		\text{int} (0.5 N_{\mathrm{C}} + 0.5) & N_{\mathrm{C}}\leqslant 25,\\
+		\text{int} (2.5\sqrt{N_{\mathrm{C}}}+0.5) & 25<N_{\mathrm{C}}\leqslant 100,\\
+		\text{int} (0.25N_{\mathrm{C}}+0.5) & N_{\mathrm{C}}>100.
+\end{cases}
+\end{equation}
+Questa espressione riproduce bene gli idrocarburi aromatici conosciuti.
+
+La forma del grano dipende empiricamente dal raggio $a$; sia \textcite{DL98a} che \textcite{Ali} assumono che i grani siano planari a forma di disco per $a<6$\,\AA{} e sferici altrimenti. Questa distinzione è importante perché i grani a disco ruotano preferibilmente intorno all'asse del massimo momento d'inerzia, ovvero intorno all'asse perpendicolare al piano in cui giace $\boldsymbol{\mu}_{\mathrm{i}}$, quindi la loro emissività sarà più alta. Una stima dello spessore degli idrocarburi discoidali è data dalla separazione tra i fogli di un cristallo di grafite: $3.35$\,\AA{}.
+
+La distribuzione delle dimensioni dei grani può essere ricavata dalle misure di estinzione, poiché un'onda luminosa viene diffratta diversamente da particelle di diametro diverso (scattering di Rayleigh). \textcite{WD01a} ha proposto una distribuzione in grado di riprodurre l'estinzione osservata. Il modello comprende anche una popolazione di silicati che come detto non dovrebbe influire sull'emissione anomala. La distribuzione dei PAHs che viene anche utilizzata da \textsc{SpDust} è
+\begin{equation}
+\label{graindist}
+\frac{1}{n_{\mathrm{H}}} \frac{\mathrm{d}n_{\mathrm{gr}}}{\mathrm{d}a} = D(a) + \frac{C}{a} \left( \frac{a}{a_t} \right) ^\alpha F(a;\beta,a_t) \times
+\begin{cases}
+1 & a_{\mathrm{min}}<a<a_t\\
+\exp \left([(a-a_t)/a_c]^3 \right) & a>a_t
+\end{cases}
+\end{equation}
+dove
+\begin{equation}
+F(a;\beta,a_t) =
+\begin{cases}
+1+\beta a/a_t & \beta \geqslant 0\\
+(1-\beta a/a_t)^{-1} & \beta < 0
+\end{cases}
+\end{equation}
+e $D(a)$ è la distribuzione lognormale
+\begin{equation}
+D(a) = \sum_{i=1}^{2} \frac{B_i}{a} \exp \left[ - \frac{1}{2} \left( \frac{\ln(a/a_{0,i})}{\sigma} \right)^2 \right].
+\end{equation}
+Con $B_i$ costanti di normalizzazione che dipendono dalla quantità di carbonio nella nube. Questa distribuzione dipende da sei parametri ($B_i,C,a_t,a_c,\alpha,\beta$), \textcite[tabella 1]{WD01a} elenca i loro valori più plausibili per il mezzo interstellare; il codice numerico permette di scegliere la distribuzione in base a questa tabella.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{immagini/size}
+\caption{Una possibile distribuzione delle dimensioni dei grani: la distribuzione rappresentata corrisponde a quella che ho utilizzato con \textsc{SpDust}. L'immagine è presa da \textcite{WD01a}. }
+\label{fig:size}
+\end{figure}
+
+
+\subsection{Momento di dipolo dei grani}
+\label{dipolo}
+Il momento di dipolo dipenderà dalla grandezza del grano in diversi modi. In primo luogo un grano più grande contiene più atomi e più legami, quindi ci si aspetta che abbia una polarità più elevata. In secondo luogo un grano più grande è in grado di acquisire una maggiore carica $|Ze|$, sia perché contiene più atomi che possono acquisire o perdere elettroni, sia perché il potenziale elettrico alla sua superficie è più basso rispetto a quello di un piccolo grano con medesima carica ($V\propto r^{-1}$) rendendo più facile l'avvicinarsi di altre cariche. Inoltre la separazione tra baricentro di carica e baricentro di massa è proporzionale al diametro. Va notato che tranne in particolari condizioni, come verrà approfondito nel terzo capitolo, il momento di dipolo intrinseco è dominante su quello acquisito tramite carica elettrica.
+\textcite{Ali} stima la distribuzione di $\mu_{\mathrm{i}}$ assumendo che le polarità dei singoli legami nel grano si sommino secondo una \textit{random-walk}. Il risultato è una distribuzione normale multivariata, differente per grani a disco o sferici perché la \textit{random-walk} viene effettuata in un numero di dimensioni diverse (2D per un disco, 3D per una sfera).
+\begin{equation}
+\label{dip}
+P(\mu_\mathrm{i})\propto
+	\begin{cases}
+		\mu_\mathrm{i}^{2} \exp \left(- \frac{3}{2} \frac{ \mu_\mathrm{i}^2}{ \left< \mu_{i} \right> ^2} \right) & \text{grano sferico},\\
+		\mu_\mathrm{i} \exp \left(- \frac{ \mu_\mathrm{i}^2}{ \left< \mu_{i} \right> ^2} \right) & \text{grano a disco}.
+	
+	\end{cases}
+\end{equation}
+Il numero di atomi influenza la distribuzione perché $\left< \mu_{i}^2 \right>  = N_{\mathrm{at}} \beta^2$.
+
+Se si assume che i vettori $\boldsymbol{\mu}_{i}$ e $\boldsymbol{\epsilon}$ siano orientati casualmente nello spazio, il momento di dipolo totale è dato da
+\begin{equation}
+\mu^2 = \mu^2_i + (0.01\,Zea)^2.
+\end{equation}
+È necessario dunque conoscere la distribuzione di carica $f_a(Z)$, non solo perché influenza $\mu$, ma anche perché $Z$ influenza la dinamica collisionale del grano.
+
+La polvere si carica per collisione con ioni (che sottraggono cariche negative al grano) o elettroni e tramite fotoemissione. Definiamo le frequenze con cui questi processi avvengono $J_{\mathrm{i}}(Z,a)$, $J_{\mathrm{e}}(Z,a)$ e $J_{\mathrm{ph}}(Z,a)$ \parencite{WD01b,DS}; all'equilibrio dovrà valere
+\begin{equation}
+\label{charge}
+[ J_{\mathrm{i}}(Z,a) + J_{\mathrm{ph}}(Z,a) ] f_a(Z) = J_{\mathrm{e}}(Z+1,a) f_a(Z+1).
+\end{equation}
+L'equazione può essere risolta ricorsivamente.
+La fotoemissione è provocata dalla radiazione elettromagnetica che incide sulla polvere e questa è differente in ogni regione dello spazio interstellare. Una buona approssimazione consiste nell'utilizzare lo spettro medio della radiazione interstellare calcolato da \textcite{MMP}, che dà una densità di energia in funzione della frequenza della radiazione:
+\begin{equation}
+\label{u}
+\nu u^{\mathrm{ISRF}}_\nu =
+\begin{cases}
+0 & h\nu > 13.6 \,\text{eV}, \\
+3.328 \times 10^{-9} (h\nu/\text{eV})^{-4.4172} \,\text{erg cm}^{-3} & 11.2 \,\text{eV} < h\nu < 13.6 \,\text{eV},\\
+8.463 \times 10^{-13} (h\nu/\text{eV})^{-1} \,\text{erg cm}^{-3} & 9.26 \,\text{eV} < h\nu < 11.2 \,\text{eV},\\
+2.055 \times 10^{-14} (h\nu/\text{eV})^{0.6678} \,\text{erg cm}^{-3} & 5.04 \,\text{eV} < h\nu < 9.26 \,\text{eV},\\
+(4\pi\nu/c) \sum_{i=1}^{3}w_i B_\nu(T_i) & h\nu < 5.04 \,\text{eV},
+\end{cases}
+\end{equation}
+dove l'ultimo termine consiste nella somma pesata di tre spettri di corpo nero. Si noti che la densità di energia è nulla per fotoni in grado di ionizzare l'idrogeno.
+La densità spettrale di energia elettromagnetica in diverse zone del mezzo interstellare può essere quindi presa come multiplo $\chi$ di $u^{\mathrm{ISRF}}$.
+
+\subsection{Distribuzione delle velocità angolari}
+\label{f}
+
+La distribuzione $f_a(\omega)$ tale che $f_a(\omega)$d$\omega$ sia la probabilità di trovare un grano di raggio $a$ rotante alla velocità $\omega$ è ottenuta da \textsc{SpDust} risolvendo l'equazione di Fokker-Planck nella sua versione stazionaria. L'equazione è valida per processi che modificano di poco la velocità angolare di un corpo ($\delta\omega\ll\omega$); in linea di principio quindi non sarebbe valida per i grani più piccoli, dove una piccola variazione nel momento angolare corrisponde una grande differenza nella velocità. \textcite{Ali} ha però mostrato come questo non influenzi sensibilmente la distribuzione nelle frequenze di interesse per l'emissione anomala (10--300\,GHz). L'equazione di Fokker-Planck stazionaria è
+\begin{equation}
+\label{eq:FP}
+\frac{\partial}{\partial \omega^i}[ D^i(\boldsymbol{\omega}) f_a(\boldsymbol{\omega})] + \frac{1}{2} \frac{\partial}{\partial \omega^i \partial \omega^j} [E^{ij}(\boldsymbol{\omega}) f_a({\boldsymbol{\omega}})] = 0,
+\end{equation}
+dove gli indici i e j vanno da 1 a 3 e i coefficienti di \textit{damping} e \textit{excitation} sono definiti da
+\begin{equation}
+\label{eq:DE}
+D^i(\boldsymbol{\omega})\equiv -\lim_{\delta t \to 0} \frac{\left\langle \delta \omega^i\right\rangle }{\delta t}, \qquad
+E^{ij}(\boldsymbol{\omega})\equiv -\lim_{\delta t \to 0} \frac{\left\langle \delta \omega^i \, \delta\omega^j\right\rangle }{\delta t}.
+\end{equation}
+Usando coordinate sferiche ($\boldsymbol{\hat{\omega}}$, $\boldsymbol{\hat{\theta}}$, $\boldsymbol{\hat{\phi}}$) e sapendo che lo spazio in cui è immerso il grano è isotropo, la \ref{eq:FP} diventa
+\begin{equation}
+\label{eq:FP2}
+\frac{1}{\omega^2} \frac{\mathrm{d}}{\mathrm{d}\omega} [\omega^2 D(\omega)f_a(\omega)] + \frac{1}{2\omega^2} \frac{\mathrm{d}^2}{\mathrm{d}\omega^2} [\omega^2 E_\parallel(\omega)f_a(\omega)] - \frac{1}{\omega^2}\frac{\mathrm{d}^2}{\mathrm{d}\omega^2} [\omega E_\perp(\omega)f_a(\omega)] = 0,
+\end{equation}
+con
+\begin{equation}
+E_\parallel(\omega) = E^{\omega \omega}, \qquad
+E_\perp(\omega) = E^{\theta \theta} \omega^2 = E^{\phi \phi} \omega^2 \sin^2 \theta
+\end{equation}
+e, assumendo che tutti gli smorzamenti avvengano lungo la direzione della velocità angolare del grano
+\begin{equation}
+\boldsymbol{D}(\boldsymbol{\omega}) = D(\omega)\boldsymbol{\hat{\omega}}.
+\end{equation}
+Integrando la \ref{eq:FP2} l'equazione differenziale diventa del primo ordine:
+\begin{equation}
+\frac{\mathrm{d}f_a}{\mathrm{d}\omega} + 2 \frac{D}{E_\parallel} f_a = 0. 
+\end{equation}
+Nell'equazione precedente si è fatto uso del fatto che $E_\parallel = E_\perp$ (eccitazioni isotrope) e $\frac{\mathrm{d}E_\parallel}{\mathrm{d}\omega} = 0$ (eccitazioni non dipendono dalla velocità angolare).
+I termini $D$ ed $E$ sono composti da contributi provenienti da tutti i meccanismi che possono mettere in rotazione il grano. È conveniente utilizzare i coefficienti normalizzati
+\begin{equation}
+\label{FG}
+F_X \equiv \frac{\tau_\mathrm{H}}{\omega} D_X, \qquad
+G_X \equiv \frac{I\tau_{\mathrm{H}}}{2kT} E_{\parallel,X},
+\end{equation}
+dove l'indice X individua il procedimento responsabile dell'eccitazione o dello smorzamento della rotazione e $\tau_{\mathrm{H}}$ è il tempo caratteristico delle collisioni con atomi di idrogeno
+\begin{equation}
+\tau_{\mathrm{H}} \equiv \left[ n_{\mathrm{H}}m_{\mathrm{H}} \left( \frac{2kT}{\pi m_{\mathrm{H}}}\right) ^{1/2} \frac{4\pi a^4}{3I} \right] ^{-1}.
+\end{equation}
+I coefficienti così definiti sono adimensionali e sono quelli ricavati da \textcite{Ali} e calcolati da  \textsc{SpDust} per ogni processo. Inserendoli nella \ref{eq:FP2} si ottiene l'equazione differenziale per la distribuzione di $\omega$:
+\begin{equation}
+\label{eq:f}
+\frac{\mathrm{d}f_a}{\mathrm{d}\omega} + \left[ \frac{I\omega}{kT} \frac{F}{G} + \frac{\tau_{\mathrm{H}}}{\tau_{\mathrm{ed}}} \frac{1}{3G} \frac{I^2\omega^3}{k^2T^2} \right] f_a = 0, \qquad
+\tau_{\mathrm{ed}} \equiv \frac{I^2c^3}{2kT\mu_\perp^2}.
+\end{equation}
+$\tau_{\mathrm{ed}}$ è il tempo caratteristico dell'emissione di dipolo, processo di smorzamento che introduce il termine in $\omega^3$ nella \ref{eq:f} rendendo la distribuzione non maxwelliana \parencite[vedi][]{Ali}.
+Questa è l'equazione risolta dal codice dopo aver calcolato $F = \sum_{X} F_X$ e $G = \sum_{X} G_X$.
+
+\section{Meccanismi di eccitazione e smorzamento}
+
+In questa sezione verranno presentati i principali processi in grado di mettere in rotazione i grani di polvere. I meccanismi che influenzano la rotazione sono moltissimi, qui sono descritti solo quelli ritenuti dominanti da \textcite{DL98b} e implementati in \textsc{SpDust}.
+
+Per studiare qualsiasi collisione, con atomi o ioni, è necessario introdurre alcune approssimazioni semplificative:
+\begin{enumerate}
+	\item si assume che il grano sia in uno stato stazionario: il numero di particelle che collidono con il grano è uguale al numero di quelle che si allontanano, non c'è accumulo sulla superficie;
+	\item il grano acquista una carica positiva in urti con ioni, e non cede mai la carica accumulata ad atomi o ioni;
+	\item sulla superficie del grano non ci sono punti privilegiati o sfavoriti dove avvengano urti;
+	\item dopo l'impatto, l'atomo lascia il grano con una velocità termica data dalla temperatura di evaporazione $T_{\mathrm{ev}}$, che dipende dalla temperatura dell'emissione termica infrarossa del grano.
+\end{enumerate}
+
+\subsection{Collisione con atomi neutri}
+Gli atomi neutri nel gas sono principalmente\footnote{\textcite{Ali} stima $n_{\mathrm{He}}/n_{\mathrm{H}} = 1/12$} H e He. Nel caso il grano non sia carico, l'unica interazione a distanza tra grano e atomi è quella tra il momento di dipolo del grano e il dipolo indotto sull'atomo, che è trascurabile per via della sua debolezza ($U(r) \propto r^{-6}$). La sezione d'urto dipende quindi solo dalla forma dell'atomo. La velocità degli atomi in arrivo segue la distribuzione di Maxwell:
+\begin{equation}
+f_{\mathrm{in}}(\boldsymbol{v}) = n_{\mathrm{H}} \left( \frac{m_{\mathrm{H}}}{2\pi k T} \right) ^{3/2} \mathrm{e}^{-m_{\mathrm{H}} v^2 / 2 k T},
+\end{equation}
+da cui si ricava il tasso di eccitazione
+\begin{equation}
+\frac{\mathrm{d}\Delta L_z^2}{\mathrm{d}t \mathrm{d}S} = \int v (m_{\mathrm{H}} \rho v_\theta)^2 f_{\mathrm{in}}(\boldsymbol{v})\mathrm{d}^3\boldsymbol{v},
+\end{equation}
+dove $\rho$ è la distanza dall'asse di rotazione e $S$ la superficie del grano.
+Integrando su $\boldsymbol{v}$ e $S$ e ricordando che $\Delta L_z^2 = I^2 \Delta \omega^2$ si ottiene, secondo la \ref{eq:DE}, il coefficiente di eccitazione
+\begin{equation}
+E^{\mathrm{in}}_{\parallel} = \frac{kT}{I\tau_{\mathrm{H}}}.
+\end{equation}
+Similmente si ottiene il coefficiente di eccitazione dato dagli atomi che lasciano la superficie $E^{\mathrm{ev}}_{\parallel}$. Il calcolo dei coefficienti di smorzamento non è necessario in base all'assunzione che i grani siano in uno stato stazionario.
+
+La situazione è più complicata nel caso il grano sia carico, perché un atomo risponde a un carica vicina sviluppando un momento di dipolo indotto che interagisce elettricamente con la carica. L'intensità di questa interazione è
+\begin{equation}
+\label{poten}
+U(r) = - \frac{1}{2} \alpha \frac{Z_{\mathrm{g}}^2 q_{\mathrm{e}}^2}{r^4}.
+\end{equation}
+$\alpha$ è la polarizzabilità dell'atomo, pari a 0.67\,\AA{}$^3$ per l'idrogeno e 0.20\,\AA{}$^3$ per l'elio.
+Questa interazione aumenta la sezione d'urto: infatti una traiettoria con parametro d'impatto b conduce allo scontro se
+\begin{equation}
+b \leqslant
+\begin{cases}
+	a \sqrt{\frac{2v_{\mathrm{a}}}{v}} & \text{se } v \leqslant v_{\mathrm{a}} \\
+	a \sqrt{1+ \frac{v_{\mathrm{a}}^2}{v^2} }& \text{se } v \geqslant v_{\mathrm{a}}
+\end{cases}
+\qquad v_{\mathrm{a}} = \frac{Z_{\mathrm{g}}^2q_{\mathrm{e}}^2\alpha}{ma^4}.
+\end{equation}
+
+\subsection{Collisioni con ioni}
+Gli ioni presenti nel gas interstellare sono principalmente H$^+$ e C$^+$.
+Uno ione interagisce sia con la carica del grano tramite la forza di Coulomb, sia con il suo dipolo intrinseco. Il dipolo può essere considerato non rotante a causa del rapporto tra i tempi caratteristici di collisione e rotazione, infatti $\omega a/v \approx \sqrt{m_{\mathrm{i}}/m_{\mathrm{gr}}} \ll 1$.
+L'interazione totale è data dal potenziale
+\begin{equation}
+V(r,\theta) = \frac{Z_{\mathrm{g}}Z_{\mathrm{i}}q_{\mathrm{e}}^2}{r} + \frac{Z_{\mathrm{i}}q_{\mathrm{e}}\mu \cos\theta}{r^2}.
+\end{equation}
+Il calcolo di $\frac{\mathrm{d}\Delta L_z^2}{\mathrm{d}t}$ è complesso e può essere consultato in \textcite[1063]{Ali}, il punto di partenza è osservare che, oltre all'energia e al momento angolare, è presente una terza costante del moto:
+\begin{equation}
+A \equiv L^2 + 2m_{\mathrm{i}}Z_{\mathrm{i}}q_{\mathrm{e}}\mu\cos\theta.
+\end{equation}
+
+Il caso in cui il grano non è carico è, sorprendentemente, più complicato: non comparendo più il termine della forza di Coulomb diventa importante il contributo dell'interazione tra lo ione e la ``carica immagine'' che compare sulla superficie del grano quando i due sono vicini. Il potenziale di interazione risulta:
+\begin{equation}
+V(r,\theta) = -\frac{Z_{\mathrm{i}}^2 q_{\mathrm{e}}^2 a^3}{2r^2(r^2-a^2)} + \frac{Z_{\mathrm{i}}q_{\mathrm{e}}\mu \cos\theta}{r^2}.
+\end{equation}
+
+In entrambi i potenziali è presente il momento di dipolo dell'idrocarburo: il suo effetto è quello di aumentare il tasso delle collisioni, provocando un aumento della potenza irradiata (ma non della frequenza alla quale viene emessa, si veda la figura \ref{fig:proto}).
+
+Una differenza tra le collisioni con ioni e atomi neutri è che nel primo caso avviene uno scambio di carica: lo ione acquisisce un elettrone dal grano e lascia la sua superficie come atomo neutro, interagendo però ancora secondo il potenziale \ref{poten}. Questo è importante nel caso di impatto con uno ione carbonio, che avendo energia di ionizzazione più bassa è sempre presente nelle nubi, a differenza dell'idrogeno che può rimanere in fase atomica a causa del ``\textit{self-shielding}''\footnote{Il termine ``self-shielding'' si riferisce al fenomeno per il quale l'idrogeno negli strati più esterni di una nube interstellare protegge l'idrogeno all'interno dalla radiazione ionizzante. Ciò avviene quando la densità della nube è abbastanza alta da rendere il mezzo interstellare otticamente spesso. Anche la polvere può contribuire ad assorbire la radiazione.}. L'atomo neutro C che esce dall'impatto ha inoltre una polarizzabilità maggiore dell'idrogeno (1.54\AA{}$^3$), quindi interagisce più intensamente con il grano.
+
+Dopo una collisione può verificarsi la cattura dell'atomo: questo accade se la velocità di evaporazione è minore della ``velocità di fuga'' dal grano determinata dal potenziale elettrico. Tuttavia l'atomo sarà emesso successivamente a causa di altre collisioni.
+
+
+\subsection{Plasma drag}
+
+``Plasma drag'' è un termine coniato dagli autori di \textcite{DL98b} per indicare il momento torcente esercitato su un grano di polvere da uno ione passante nelle vicinanze.
+Il processo di plasma drag differisce dallo scontro diretto. Innanzitutto nel primo caso non c'è scambio di carica; inoltre in una collisione tutta l'energia cinetica viene inizialmente assorbita dal grano e successivamente ceduta in parte allo ione. La correlazione tra energia cinetica dello ione prima e dopo l'impatto è quasi nulla, mentre nel plasma drag l'energia in uscita dipende fortemente dall'energia in entrata.
+
+Il momento torcente è provocato dall'interazione carica-dipolo ed è dato da
+\begin{equation}
+I \frac{\mathrm{d}\omega}{\mathrm{d}t} = \boldsymbol{\mu} \times \boldsymbol{E} = - I \frac{Z_{\mathrm{i}}q_{\mathrm{e}}}{r^2} \boldsymbol{\mu} \times \boldsymbol{\hat{r}},
+\end{equation}
+sia per un grano carico che neutro. Mentre una soluzione analitica è possibile per un grano carico, nell'altro caso si deve far uso di calcoli numerici, poiché diventa nuovamente importante il contributo della carica indotta sulla superficie del grano.
+
+\subsection{Emissione infrarossa e anomala}
+
+La polvere emette radiazione nel campo del lontano infrarosso e delle microonde, irradiando anche momento angolare e quindi rallentando. La polvere può inoltre assorbire la radiazione e accelerare.
+La dinamica del processo di emissione è governata dalle equazioni
+\begin{equation}
+\dot{E} = \frac{2}{3c^3} \boldsymbol{\ddot{\mu}}^2, \qquad
+\boldsymbol{\dot{L}} = \frac{2}{3c^3} \boldsymbol{\dot{\mu}} \times \boldsymbol{\ddot{\mu}}.
+\end{equation}
+
+La risoluzione di queste porta alla variazione di momento angolare 
+\begin{equation}
+\label{smemissione}
+\frac{\mathrm{d}L_z}{\mathrm{d}t} = \frac{2\omega}{\pi} \int_{0}^{\infty} \!\frac{F_\nu}{\nu} \mathrm{d}\nu,
+\end{equation}
+che può essere calcolata se si conosce la potenza emessa per intervallo di lunghezza d'onda $F_\nu$.
+
+A questa variazione si aggiunge l'effetto dato dal rinculo dei fotoni che lasciano il grano:
+\begin{equation}
+\frac{\mathrm{d}\Delta L^2}{\mathrm{d}t} = \frac{h}{\pi} \int_{0}^{\infty} \!\frac{F_\nu}{\nu} \mathrm{d}\nu.
+\end{equation}
+
+\subsection{Emissione fotoelettrica}
+
+La radiazione elettromagnetica che incide sul grano può provocare l'emissione di un elettrone, che porta con sè un momento angolare
+\begin{equation}
+\Delta L_z = m_{\mathrm{e}} \rho ( v^\theta_e - \rho\omega).
+\end{equation}
+La velocità tangenziale dell'elettrone $v^\theta_e$ segue la distribuzione di Maxwell; conoscendo il tasso di fotoemissione $J_{\mathrm{pe}}$ (vedi l'eq. \ref{charge} e il suo paragrafo) si può calcolare il contributo del processo alla rotazione. Si verifica che questo è lineare in $J_{\mathrm{pe}}$, a sua volta lineare in $\chi$: l'emissione fotoelettrica dipende direttamente dalla radiazione in cui è immersa la polvere.
+
+\subsection{Formazione di H$_2$ sulla superficie del grano}
+
+Come anticipato, la superficie dei grani agisce da catalizzatore per reazioni di sintesi di molecole. La più comune è la formazione di una molecola di idrogeno, che avviene quando un atomo H si scontra con il grano e si unisce ad un altro H che era presente sulla superficie. L'efficacia $\gamma$ di questo processo, ovvero il rapporto tra collisioni che risultano in formazione di H$_2$ e collisioni totali, è scarsamente conosciuta \parencite[166]{DL98b}: in \textsc{SpDust} è un parametro in input. Il contributo di questo processo alla rotazione del grano dipende inoltre dalla sua grandezza: un grano più grande ha più superficie su cui la reazione può avere luogo. Tuttavia la velocità angolare trasmessa dal processo dipende dal rapporto $\sqrt{m_{\mathrm{H}_2}/m_{\mathrm{gr}}}$, che è più piccolo proprio per grani massivi. Ci si aspetta dunque che questo processo non influenzi molto lo spettro di emissione.

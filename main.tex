@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper, twoside,openright]{report}
+  \usepackage{fontenc}
+  \usepackage[utf8]{inputenc}
+  
+  \usepackage{textcomp}
+  \usepackage[italian]{babel}
+  \usepackage{amsmath}
+  \usepackage{amsfonts}
+  \usepackage{amssymb}
+  \usepackage{graphicx}
+  \usepackage[%
+    backend=biber,
+    style=authoryear,
+    natbib=true,
+    backref=false,
+    backrefstyle=all+,
+    hyperref=true,
+    citestyle=authoryear,
+    maxcitenames=2,
+    ]{biblatex}
+    %\renewcommand\nametitledelim{\ifin{textcite}{\addspace}{\addspace\addcomma}}
+   \renewcommand*{\nameyeardelim}{\addspace}
+  \addbibresource{biblio.bib}
+  \usepackage{csquotes}
+  \usepackage{hyperref}
+  \usepackage{subfigure}
+  %\\usepackage{subcaption}
+  \usepackage{fancyhdr}
+  \setlength{\headheight}{15pt}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \fancyhead[EL]{\nouppercase\leftmark}
+  \fancyhead[OR]{\nouppercase\rightmark}
+  \fancyhead[ER,OL]{\thepage}
+  
+  \author{Tommaso Forni}
+  \title{Studio dello spettro di emissione anomala della polvere interstellare mediante il codice \textsc{SpDust}}
+  \usepackage{frontespizio}
+  
+  \begin{document}
+
+ % \maketitle
+  \begin{frontespizio}
+  	\Istituzione{}
+  	\Logo[5cm]{immagini/logo}
+  	\Facolta {Scienze Matematiche, Fisiche e Naturali}
+  	\Corso [Laurea Triennale]{Fisica}
+  	\Annoaccademico {2015--2016}
+  	\Titoletto {Tesi di laurea triennale}
+  	\Titolo {Studio dello spettro di emissione anomala\\ della polvere interstellare\\
+  		mediante il codice SPDUST}
+  	\Candidato [830598]{Tommaso Forni}
+  	\Relatore {Dott. Maurizio Tomasi}
+  \end{frontespizio}
+  \include{abstract}
+  \tableofcontents
+  \include{introduzione} 
+  \include{2_polvere} 
+  \include{3_spdust}
+  \include{conclusione}
+ \nocite{*} 
+ \printbibliography
+ \end{document}

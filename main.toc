@@ -1,0 +1,65 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione}{5}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Scoperta e modelli}{5}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Perch\IeC {\'e} studiare l'emissione anomala?}{7}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}La polvere interstellare e la sua emissione}{9}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}La polvere interstellare}{9}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Composizione}{10}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Emissione anomala}{12}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Emissione di dipolo}{12}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Distribuzione delle dimensioni dei grani}{13}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Momento di dipolo dei grani}{15}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Distribuzione delle velocit\IeC {\`a} angolari}{17}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Meccanismi di eccitazione e smorzamento}{18}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Collisione con atomi neutri}{19}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Collisioni con ioni}{19}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Plasma drag}{21}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Emissione infrarossa e anomala}{21}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Emissione fotoelettrica}{22}{subsection.2.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.6}Formazione di H$_2$ sulla superficie del grano}{22}{subsection.2.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Studio dell'emissione anomala con il codice \textsc {SpDust}}{23}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Il codice \textsc {SpDust}}{23}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Dipendenza dello spettro dai parametri fisici}{25}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Momento di dipolo intrinseco}{27}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Intesit\IeC {\`a} della radiazione incidente}{29}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Temperatura della nube}{30}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Efficienza del processo di formazione di H$_2$}{30}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.5}Frazione di idrogeno molecolare}{31}{subsection.3.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.6}Densit\IeC {\`a} numerica del gas}{31}{subsection.3.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.7}Effetto della ionizzazione}{33}{subsection.3.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.8}Effetto dell'assenza di ioni nei risultati del codice}{38}{subsection.3.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusione}{41}{chapter.4}

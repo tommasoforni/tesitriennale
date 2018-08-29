@@ -1,0 +1,272 @@
+\chapter{Studio dell'emissione anomala con il codice \textsc{SpDust}}
+
+\section{Il codice \textsc{SpDust}}
+
+\textsc{SpDust} è un codice numerico scritto nel linguaggio interpretato IDL (\textit{Interactive Data Language}) e pubblicato da Yacine Ali-Haïmoud inizialmente nel 2008, e poi corretto e perfezionato nel 2010 e 2012. Il codice è affiancato dall'articolo \textcite{Ali}, che ne illustra il funzionamento e il modello di cui fa uso.
+Per ogni esecuzione, il programma restituisce un file contenente lo spettro di emissione della nube di polvere interstellare, ovvero una elenco di frequenze (in GHz) a cui è fatta corrispondere la potenza per intervallo di frequenza (in Jy\,cm$^2$\,sr$^{-1}$, equivalente a erg\,s$^{-1}$\,sr$^{-1}$\,Hz$^{-1}$). Lo spettro è normalizzato sul numero di atomi di idrogeno nel gas che contiene la nube.
+
+Il programma ha bisogno di nove parametri per calcolare l'emissione, questi descrivono sia l'ambiente interstellare dove è collocata la nube che le proprietà dei grani nella nube e sono:
+\begin{enumerate}
+	\item[$\boldsymbol{n_{\mathrm{H}}}$] la densità numerica totale di atomi di idrogeno del gas, comprendente ioni, atomi e molecole (in cm$^{-3}$);
+	\item[$\boldsymbol{T}$] La temperatura del gas (in K);
+	\item[$\boldsymbol{\chi}$] l'intensità della radiazione in cui è immersa la nube: $\chi$ è un numero puro e lo spettro è dato  da $\chi u^{ISRF}$ (vedi \ref{u});
+	\item[$\boldsymbol{x_{\mathrm{H}}}$] la frazione di atomi di idrogeno ionizzati ($x_{\mathrm{H}} = n_{\mathrm{H}^+}/n_{\mathrm{H}}$);
+	\item[$\boldsymbol{x_{\mathrm{C}}}$] la quantità di ioni carbonio rispetto alla densità totale ($x_{\mathrm{C}} = n_{\mathrm{C}^+}/n_{\mathrm{H}}$);
+	\item[$\boldsymbol{y}$] la frazione di atomi di idrogeno in stato molecolare ($y = 2n_{\mathrm{H_2}}/n_{\mathrm{H}}$);
+	\item[$\boldsymbol{\gamma}$] l'efficienza del processo di formazione di H$_2$ sulla superficie dei grani;
+	\item[$\boldsymbol{\mu_i}$ o $\boldsymbol{\beta}$] il momento di dipolo quadratico medio da cui il codice ricava la distribuzione dei momenti (vedi \ref{dip});
+	\item[$\boldsymbol{l}$] valore che contiene i parametri per la distribuzione delle grandezze dei grani (vedi \ref{graindist} e successive). $l$ esprime il numero della riga nella tabella 1 di \textcite{WD01a}, dove sono elencate le diverse possibilità per la distribuzione.
+	\end{enumerate}
+	
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{immagini/proto}
+\caption{Tipici spettri di emissione anomala: in figura sono disegnati quattro differenti spettri di una nube di \textit{Cold Neutral Medium} (CNM, vedi tabella \ref{tab1}) ottenuti con \textsc{SpDust}, che differiscono per il momento di dipolo quadratico medio $\beta$ indicato in alto a destra. Come ci si aspetta la potenza emessa aumenta con il momento di dipolo, mentre il picco si sposta su frequenze più basse. Quest'ultimo effetto è causato dal fatto che un grano rotante con grande momento di dipolo emetterà velocemente il proprio momento angolare, rallentando ed emettendo poi stabilmente a frequenze più basse.}
+\label{fig:proto}
+\end{figure}
+
+
+\section{Dipendenza dello spettro dai parametri fisici}
+\begin{table}[]
+	\centering
+	\label{tab1}
+	\begin{tabular}{c|ccccccc}
+		Parametro                         & \textbf{DC}                          & MC     & CNM    & \textbf{WNM}    & \textbf{WIM}   & RN     & PDR    \\ \hline
+		$n_{\mathrm{H}} [\text{cm}^{-3}]$ & $10^4$                      & 300    & 30     & 0.4    & 0.1   & $10^3$ & $10^4$ \\
+		$T$ {[}K{]}                       & 10                          & 20     & 100    & 6000   & 8000  & 100    & 300    \\
+		$\chi$                            & $10^{-4}$                   & 0.01   & 1      & 1      & 1     & 1000   & 3000   \\
+		$x_{\mathrm{H}}$                  & 0                           & 0      & 0.0012 & 0.1    & 0.99  & 0.001  & 0.0001 \\
+		$x_{\mathrm{C}}$                  & $10^{-6}$ & 0.0001 & 0.0003 & 0.0003 & 0.001 & 0.0002 & 0.0002 \\
+		$y$                               & 0.999                       & 0.99   & 0      & 0      & 0     & 0.5    & 0.5   
+	\end{tabular}
+	\caption{Caratteristiche degli ambienti interstellari: è riportata la tabella di \textcite{DL98b}, le sigle si riferiscono a \textit{Dark Cloud, Molecular Cloud, Cold Neutral Medium, Warm Neutral Medium, Warm Ionized Medium, Reflection Nebula, Photodissociation Region}. DC, WNM e WIM sono evidenziati perché sono gli ambienti che ho utilizzato per lo studio dello spettro.}
+	
+\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{immagini/Barnard_33}
+	\caption{A sinistra la Nebulosa Testa di Cavallo (Barnard 33), una nebulosa oscura (Dark Cloud) nella costellazione di Orione: si può notare come la luce non riesca ad attraversare la nebulosa. 
+		A destra la Nebulosa del Granchio (NGC 1952), formata da gas in espansione espulsi dalla Supernova 1054. Sono evidenti i filamenti formati da gas ionizzato caldo, un esempio di WIM.}
+	\label{fig:Barnard_33}
+\end{figure}
+Per studiare il comportamento dell'emissione anomala si può caratterizzarne lo spettro dalla potenza totale emessa per atomo di idrogeno $j/n_{\mathrm{H}}$ e dalla frequenza di picco $\nu_{\mathrm{peak}}$ e osservare come questi variano in funzione di ogni parametro. In \textcite{Ali} è possibile trovare uno studio di questo tipo per una nube di \textit{Cold Neutral Medium} (CNM, vedi tabella \ref{tab1}). Seguendo questo esempio ho disegnato l'andamento della potenza e della posizione del picco per ogni parametro in tre diversi ambienti: \textit{Warm Neutral Medium}, \textit{Warm Ionized Medium} e \textit{Dark Cloud}. Per calcolare la potenza totale emessa ho implementato un integratore che utilizza il metodo dei trapezi, mentre per estrarre il valore del picco ho implementato un interpolatore che approssima l'andamento dello spettro in prossimità del massimo con una parabola passante per i tre punti più alti. Ho testato l'efficacia di questi due metodi riproducendo i grafici in \textcite{Ali} (vedi figure \ref{fig:Ali} e \ref{fig:Ali2}), con esito positivo.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{immagini/Ali}
+\caption{Efficacia dell'integratore: a sinistra il grafico che ho ottenuto con il mio integratore, a destra quello riportato in \textcite{Ali}. Nei grafici è rappresentata la potenza emessa dalla polvere in funzione del momento di dipolo intrinseco, l'ambiente in cui è immersa la polvere è il \textit{Cold Neutral Medium}.}
+\label{fig:Ali}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{immagini/Ali2}
+	\caption{Efficacia dell'interpolatore: a sinistra il grafico che ho ottenuto con il mio interpolatore, a destra quello riportato in \textcite{Ali}. Nei grafici è rappresentata la frequenza di picco in funzione del momento di dipolo intrinseco, l'ambiente in cui è immersa la polvere è il \textit{Cold Neutral Medium}.}
+	\label{fig:Ali2}
+\end{figure}
+
+
+I parametri corrispondenti agli ambienti interstellari sono stati tabulati da \textcite[][tab.1]{DL98b}. Ho usato questi valori anche per ricavare degli intervalli in cui far variare i parametri ambientali, in modo da simulare ambienti che possano esistere nel mezzo interstellare.
+
+\subsection{Momento di dipolo intrinseco}
+\begin{figure}
+	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/dip}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_dip}}
+	}
+	\caption{Effetto del momento di dipolo intrinseco quadratico medio $\mu_i$: a sinistra la potenza totale emessa, a destra la frequenza del picco di emissione. Siccome il dipolo dipende dal raggio del grano, il valore $\mu_i$ rappresentato corrisponde a un raggio $a=10$\,\AA{}, da cui il codice ricava il dipolo per tutti raggi possibili. È possibile notare come l'emissione di una DC tenda a 0 quando il momento di dipolo si annulla, mentre in altri ambienti l'emissione si stabilizza su un valore non nullo. Sulla destra è possibile notare come il picco si sposti a frequenze più basse con l'aumentare dell'emissione, diversamente dal comportamento osservato nei grafici successivi.}
+	\label{plotdip}
+\end{figure}
+
+Lo studio della dipendenza dello spettro dal momento di dipolo intrinseco è di primaria importanza in quanto questo è sconosciuto e solo stimato su basi chimiche e statistiche. In figura \ref{plotdip} possiamo osservare il comportamento dell'emissione per $\mu_i\rightarrow\infty$: la potenza emessa sembra stabilizzarsi su una retta, infatti secondo la \ref{potenza} si ha la dipendenza quadratica dell'emissione dal dipolo (che in un grafico logaritmico appare come una retta). La radiazione inoltre si sposta su frequenze più basse, responsabile di questo è lo smorzamento tramite emissione: secondo la \ref{smemissione} si ha che un grano irradia momento angolare secondo $\mathrm{d}L_z/\mathrm{d}t \propto \mu^2\omega^4$, quindi molto velocemente. Un grano con grande momento di dipolo che ruota velocemente rallenterà molto prima che sopraggiunga una nuova collisione, quindi in media i grani ruoteranno più lentamente.
+Per capire il comportamento per $\mu_i\rightarrow0$ ricordiamo che il dipolo totale è dato dalla somma di due termini: $\mu^2 = \mu^2_i + (0.01\,Zea)^2$, se $\mu_i=0$ solo il termine proporzionale a $Z$ contribuisce all'emissione, che quindi rimarrà costante. Un caso particolare è dato dall'ambiente di \textit{Dark Cloud}, che è caratterizzato da bassa radiazione e bassa ionizzazione: vengono quindi a mancare i principali processi che possono caricare i grani. In un ambiente di questo tipo la polvere, senza carica e polarità intrinseca, non è più in grado di emettere. Ho testato questa mia ipotesi variando i parametri in input a \textsc{SpDust} e ho trovato che quest'effetto si manifesta in tutti gli ambienti poco illuminati ($\chi\leqslant10^{-2}$) e contemporaneamente poco ionizzati ($x_C+x_H\leqslant10^{-6}$).
+
+Il processo dominante quando il momento di dipolo è grande è il plasma drag ($G_p \propto \mu^2$).
+
+
+\subsection{Intesità della radiazione incidente}
+\begin{figure}
+	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/chi2}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_chi2}}
+	}
+	\caption{Effetto dell'intensità di radiazione incidente $\boldsymbol{\chi}$ sulla polvere. La discontinuità intorno a $\chi\approx10^{-2}$ è causata dal fatto che il codice calcola la temperatura di evaporazione dal grano in modo discontinuo. È interessante notare il minimo a $\chi\approx10$, la cui natura è spiegata sotto.}
+	\label{plotchi}
+\end{figure}
+
+La radiazione che illumina la nube di polvere incide sullo spettro in più modi. Come detto prima, la distribuzione di carica è influenzata dalla radiazione tramite il processo della fotoemissione; i grani di una nube relativamente vicina a una stella vengono ionizzati dalla radiazione, acquisendo carica positiva. Inoltre i fotoni incidenti possono mettere in rotazione i grani. Questi due effetti sono responsabili dell'andamento dei grafici in figura \ref{plotchi}: l'emissione decresce fino a $\chi\approx10$ poichè la crescente carica dei grani rende più difficile l'impatto con ioni, mentre aumenta per $\chi$ maggiori in quanto diventa importante l'accelerazione data da fotoni incidenti.
+Notiamo che, a differenza del caso precedente, la frequenza di picco segue l'andamento della potenza emessa.
+
+\subsection{Temperatura della nube}
+\begin{figure}
+	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/t}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_t}}
+	}
+	\caption{Effetto della temperatura della nube di polvere e gas: è evidente il comportamento diverso di un ambiente denso e neutro (DC) e gli ambienti rarefatti e ionizzati (WIM, WNM). Anche in questo caso ad un aumento di emissione corrisponde una maggiore frequenza di emissione.}
+	\label{plotT}
+\end{figure}
+
+La temperatura influenza tutti i processi di eccitazione. Con l'aumentare della temperatura aumenta la frequenza delle collisioni, che inoltre avverranno a velocità più elevate. Le collisioni saranno quindi il processo di eccitazione dominante ad alte temperature. In figura \ref{plotT} si osserva un andamento oscillante per il WIM e il WNM, mentre l'emissione della DC cresce fortemente con la temperatura. Questo fatto può essere spiegato considerando che la DC è un ambiente molto denso ($n_{\mathrm{H}}\approx10^4$\,cm$^{-3}$), quindi un piccolo aumento della temperatura incrementa sensibilmente il numero delle collisioni; il WIM e il WNM sono invece ambienti molto rarefatti. A basse temperature gli atomi neutri smettono di collidere con i grani, mentre le collisioni con ioni sono ancora possibili grazie alla forza elettrica, così come il plasma drag. Questo può invece spiegare l'andamento del grafico per $T\rightarrow0$: l'emissione di ambienti fortemente ionizzati come WIM e WNM rimane alta, mentre quella dell'ambiente non ionizzato decresce fino ad annullarsi.
+
+\subsection{Efficienza del processo di formazione di H$_2$}
+\begin{figure}
+	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/gamma}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_gamma}}
+	}
+	\caption{Effetto dell'efficienza del processo di formazione di H$_2$ ($\boldsymbol{\gamma}$): il grafico mostra chiaramente che questo effetto non influenza lo spettro degli ambienti considerati.}
+	\label{plotgamma}
+\end{figure}
+
+L'efficienza del processo di formazione di H$_2$ è la frazione di idrogeno che lascia il grano in forma molecolare, essa è una proprietà dei grani sconosciuta. Il processo è influenzato anche dalla quantità di idrogeno molecolare nel gas (y). Il grafico mostra che negli ambienti considerati l'effetto è nullo, in effetti sia il WIM che il WNM non hanno idrogeno in stato molecolare, tuttavia non c'è nessun effetto neanche nella DC dove quasi tutto l'idrogeno è molecolare.
+
+\subsection{Frazione di idrogeno molecolare}
+\begin{figure}
+
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/y}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_y}}
+	}
+	\caption{Effetto della frazione di idrogeno molecolare $\boldsymbol{y}$: il grafico mostra che non fa differenza il fatto che l'idrogeno sia molecolare o atomico. Nel caso degli ambienti ionizzati (WIM e WNM) la frazione di ioni è stata ridotta in accordo con il crescente numero di molecole.}
+		\label{ploty}
+\end{figure}
+
+L'idrogeno molecolare influisce sui processi collisionali a causa della sua massa (doppia rispetto ad H). Tuttavia, a densità numerica $n_H$ costante, le collisioni diventano meno frequenti. L'effetto netto è che il parametro $y$ non influisce sullo spettro di emissione, almeno non negli ambienti considerati.
+
+\subsection{Densità numerica del gas}
+\begin{figure}
+
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/nh}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_nh}}
+	}
+	\caption{Effetto della densità numerica del gas $n_\mathrm{H}$. Agli estremi dell'intervallo considerato la potenza emessa si stabilizza asintoticamente, mentre all'interno segue un andamento polinomiale in $n_\mathrm{H}$ (una retta nel grafico logaritmico). Nell'ambiente DC c'è un andamento oscillante intorno a $n_\mathrm{H}\approx1$\,cm$^{-3}$ che è probabilmente dovuto al modo discontinuo in cui \textsc{SpDust} calcola la temperatura di evaporazione (un fenomeno simile si nota anche nei grafici di \textcite{Ali}).}
+		\label{plotnh}
+\end{figure}
+
+La densità totale del gas $n_\mathrm{H}$ (comprensiva di atomi H e He e ioni H$^+$ e C$^+$) influisce su molti processi. In particolare determina se a prevalere sono i processi governati dalla materia (collisioni, plasma drag) o dalla radiazione (emissione e assorbimento di fotoni). Ovviamente in un ambiente rarefatto sarà importante il contributo della radiazione incidente mentre in un ambiente denso domineranno le collisioni. Ricordiamo che il processo di assorbimento ed emissione di fotoni è quello che rende la distribuzione delle velocità angolari non Maxwelliana (vedi eq. \ref{eq:f}), quindi ad alte densità ($n_H\approx10^5$\,cm$^{-3}$) le velocità angolari seguono la distribuzione di Maxwell.
+L'andamento della potenza radiata è simile in tutti gli ambienti considerati. A basse densità c'è un andamento asintotico, poiché l'emissione infrarossa dei grani, che qui è dominante, non è influenzata da $n_\mathrm{H}$; nell'intervallo delle densità intermedie, a cui appartiene la maggior parte degli ambienti interstellari, l'emissione dipende da $n_\mathrm{H}$ secondo una legge polinomiale; a densità molto alte si ritrova un comportamento asintotico.
+
+\subsection{Effetto della ionizzazione}
+\label{ioni}
+
+\begin{figure}
+	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/xh}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_xh}}
+	}
+	\caption{Effetto della frazione di idrogeno ionizzato: in tutti gli ambienti c'è una crescita della potenza emessa, ma in una Dark Cloud questa crescita avviene anche per valori molto bassi di $x_\mathrm{H}$. La frequenza di picco è strettamente legata alla potenza.}
+	\label{plotxh}
+\end{figure}
+Le frazioni di idrogeno e carbonio ionizzati ($x_\mathrm{H}$ e $x_\mathrm{C}$) influenzano la distribuzione di carica e sono determinanti per i processi di plasma drag e di collisioni con ioni. Nonostante incidano sullo spettro in maniera simile, i due tipi di ioni si comportano diversamente. Prima di tutto la loro presenza nell'ambiente interstellare è molto diversa: il carbonio costituisce una piccola parte\footnote{I grani costituiscono circa l'1$\%$ della massa del mezzo interstellare ma il carbonio libero arriva al massimo allo 0.1$\%$.}. del mezzo interstellare, mentre l'idrogeno la quasi totalità. Tuttavia il carbonio è più facilmente ionizzabile dell'idrogeno\footnote{L'energia di prima ionizzazione del carbonio è 1086\,Kj/mol mentre quella dell'idrogeno è 1312\,Kj/mol.}, per cui è possibile trovare una quantità non trascurabile di ioni C$^+$ anche in ambienti freddi e poco illuminati (vedi \ref{tab1}, in una Molecular Cloud o in una Dark Cloud è presente carbonio ionizzato ma non idrogeno). Inoltre il contributo del carbonio può essere dominante anche in nubi molto illuminate, se la densità della nube permette che l'idrogeno sia \textit{self-shielded}. Un'altra differenza è la massa dei due ioni, che influenza l'efficienza sia delle collisioni che del plasma drag. \textcite{Ali} riporta
+\begin{equation}
+G_c \propto \sqrt{m_i}, \qquad G_p \propto \sqrt{m_i},
+\end{equation}
+
+\begin{figure}	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/xclimit}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/v_xc}}
+	}
+	\caption{Effetto della frazione di carbonio ionizzato: l'impatto di $x_\mathrm{C}$ sull'emissione è molto simile a quello di $x_\mathrm{H}$; la differenza sta nel fatto che le situazioni rappresentate in questo grafico sono molto più realistiche di quelle in fig. \ref{plotxh}. Sono arrivato alla conclusione che gli ioni influenzano molto l'emissione se la polvere si trova in un ambiente poco illuminato (vedi paragrafo \ref{ioni}).}
+	\label{plotxc}
+\end{figure}
+
+dove con $G_c$ e $G_p$ si intendo i coefficienti definiti nell'eq. \ref{FG} relativi a collisioni con ioni e plasma drag, mentre $m_i$ indica la massa dello ione. Ricordiamo inoltre che uno ione dopo una collisione lascia la superficie del grano come atomo neutro, e continua a interagire a distanza tramite il suo dipolo indotto. La forza di questa interazione è proporzionale alla polarizzabilità dell'atomo, che per il carbonio è più che doppia rispetto all'idrogeno (1.54\,\AA{}$^3$, mentre per l'idrogeno 0.67\,\AA{}$^3$). 
+
+
+In fig. \ref{plotxh} notiamo come la ionizzazione influenzi molto più marcatamente lo spettro della Dark Cloud rispetto agli altri due ambienti, la cui emissione sale solo quando quasi tutto l'idrogeno è ionizzato. Bisogna considerare che una tale quantità di idrogeno ionizzato è però molto difficile da ottenere in un ambiente freddo e buio come una Dark Cloud. È invece possibile avere una quantità di ioni C$^+$ in grado di influenzare pesantemente l'emissione (fig. \ref{plotxc}).
+
+Per comprendere la causa di questo fenomeno ho realizzato dei grafici tridimensionali in cui è rappresentata l'emissione in funzione di due parametri; in questo modo ho studiato l'interdipendenza tra percentuale di ioni e temperatura, densità, intensità di radiazione.
+Da questi ho estratto per leggibilità i grafici bidimensionali nelle figure \ref{fig:xc_chi}, \ref{fig:xc_nh} e \ref{fig:xc_t}. Si può notare dal grafico \ref{fig:xc_chi} come l'emissione di una nube su cui incide poca radiazione dipenda molto dalla quantità di ioni presenti. Sembra anche che in una nube densa ($n_\mathrm{H}\geqslant10^3$) sia importante l'effetto degli ioni. Densità e assenza di radiazione sono in effetti caratteristiche della DC. I coefficienti $G$ calcolati dal codice indicano che in questo caso il meccanismo di eccitazione preferito sono le collisioni con ioni. Per questo processo vale \parencite{Ali}
+\begin{equation}
+G_c \propto Z_\mathrm{gr}^2.
+\end{equation}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{immagini/xc_chi}
+	\caption{Effetto della ionizzazione del carbonio in nubi su cui incide una diversa quantità di radiazione. Per grandi valori di $\chi$ il meccanismo di eccitazione dominante è l'accelerazione dovuta a fotoni incidenti, che non dipende in nessun modo dalla ionizzazione. Per piccoli valori di $\chi$ le collisioni con ioni sono favorite a causa della carica negativa dei grani e una variazione della ionizzazione produce un effetto considerevole sulla potenza emessa.}
+	\label{fig:xc_chi}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{immagini/xc_nh}
+	\caption{Effetto della ionizzazione in nubi di diversa densità. Per piccoli valori di $n_\mathrm{H}$ la radiazione domina la dinamica dei grani. A densità più alte dominano i processi governati dalla materia come appunto le collisioni con ioni, favorite dalla carica negativa dei grani.}
+	\label{fig:xc_nh}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{immagini/xc_t}
+	\caption{Effetto della ionizzazione in nubi di diversa temperatura. Ad alte temperature l'energia elettrica diventa trascurabile rispetto a quella cinetica, ciò significa che una collisione con uno ione non è particolarmente diversa da una collisione con un atomo neutro.}
+	\label{fig:xc_t}
+\end{figure}
+
+Ho modificato leggermente il codice in modo da avere in output anche la distribuzione della carica elettrica e ho trovato che, quando la radiazione incidente è ridotta, i grani tendono ad acquisire cariche negative. Infatti, in assenza di fotoemissione, i grani si caricano solo per collisione con elettroni e ioni che, pur essendo presenti nel gas nella stessa quantità, hanno sezione d'urto diversa. I processi influenzati dagli ioni vengono quindi favoriti da grani carichi negativamente, situazione che si verifica per $\chi\ll1$.
+
+Come detto, l'effetto si nota anche a densità elevate e la ragione è la stessa: aumentando di molto la densità il contributo degli ioni e degli elettroni liberi alla distribuzione di carica diventa dominante rispetto alla fotoemissione e ciò risulta nuovamente in grani carichi negativamente, che interagiscono fortemente con le cariche positive del gas.
+
+La temperatura non sembra modificare nello stesso modo l'effetto degli ioni, addirittura per alte temperature la loro presenza o assenza non influisce sullo spettro. In questo caso il meccanismo di eccitazione dominante, le collisioni, produce gli stessi effetti per collisioni con atomi o ioni, poiché l'energia cinetica termica è molto più grande dell'energia elettrica in gioco. 
+
+\newpage
+\subsection{Effetto dell'assenza di ioni nei risultati del codice}
+\label{app}
+Ho notato che il codice non funziona quando riceve in input una frazione di ioni idrogeno e carbonio pari a zero.
+In particolare \textsc{SpDust} si blocca perché deve eseguire una divisione per zero. Ho quindi calcolato vari spettri con ionizzazione sempre più bassa, e ho trovato che per valori prossimi a zero la potenza emessa risulta molto grande (figura \ref{errore}). Controllando la distribuzione di carica ho trovato che in questa situazione tutti i grani hanno carica positiva massima (la carica massima dipende dalla grandezza del grano). La distribuzione di carica è determinata dall'eq. \ref{charge} che viene risolta ricorsivamente. Dato $f(Z_0)$ infatti si ha
+\begin{equation}
+f(Z_0+1) = \frac{J_\mathrm{i}(Z_0)+J_\mathrm{pe}(Z_0)}{J_\mathrm{e}(Z_0+1)}f(Z_0),
+\end{equation}
+quindi i grani hanno carica massima quando $J_\mathrm{e}$ è molto piccolo, ovvero quando ci sono pochi elettroni liberi nel gas. Controllando il codice ho notato che la densità numerica di elettroni liberi viene approssimata con la densità numerica di ioni, questo stima però non include gli elettroni liberati per fotoemissione.
+
+In conclusione, il codice utilizza un'approssimazione per la densità numerica di elettroni che non è valida quando nella nube sono presenti pochissimi ioni, questo risulta in un calcolo errato della carica dei grani; l'effetto è una sovrastima della potenza emessa.
+\begin{figure}
+	
+	\centerline{
+		\centering
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/xc_CNM}}
+		\hspace{-5mm}
+		\subfigure
+		{\includegraphics[width=8.5cm]{immagini/xc_dark}}
+	}
+	\caption{Comportamento anomalo dello spettro per basse ionizzazioni. Si può notare come in entrambi i casi la potenza emessa si riduca al diminuire di $x_\mathrm{C}$ fino a che, per valori vicinissimi a zero, torni a crescere (linea rossa). A sinistra sono rappresentati spettri dell'ambiente CNM, mentre a destra dell'ambiente DC. Anche qui si può osservare il diverso effetto che gli ioni hanno nei diversi ambienti: nell'immagine di sinistra l'emissione cresce gradualmente, mentre a destra cresce molto velocemente per poi stabilizzarsi.}
+	\label{errore}
+\end{figure}

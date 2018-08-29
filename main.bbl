@@ -1,0 +1,1430 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global}
+    \entry{Ali2}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=720ff1c275e7ce3e352c1961e00f6d31}{%
+           family={Ali-Haïmoud},
+           family_i={A\bibinithyphendelim H\bibinitperiod},
+           given={Yacine},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{720ff1c275e7ce3e352c1961e00f6d31}
+      \strng{fullhash}{720ff1c275e7ce3e352c1961e00f6d31}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Adv. Ast.}
+      \field{title}{Spinning dust radiation: a review of the theory}
+      \field{year}{2012}
+    \endentry
+    \entry{Ali}{article}{}
+      \name{author}{3}{uniquelist=1}{%
+        {{uniquename=0,hash=720ff1c275e7ce3e352c1961e00f6d31}{%
+           family={Ali-Haïmoud},
+           family_i={A\bibinithyphendelim H\bibinitperiod},
+           given={Yacine},
+           given_i={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=cd9aa80cd581af14eb7fd73e1a44630e}{%
+           family={Hirata},
+           family_i={H\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           given_i={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=cb54e5d05722535b64ea8ae9ccddd872}{%
+           family={Dickinson},
+           family_i={D\bibinitperiod},
+           given={Clive},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2df9e2575cafc453459517f13999568}
+      \strng{fullhash}{d17fcc64e0fb008a67f520909f2a7224}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{title}{A refined model for spinning dust radiation}
+      \field{year}{2009}
+    \endentry
+    \entry{B92}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4575ccbc8fcda78d92d00327794d4545}{%
+           family={Bennet},
+           family_i={B\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           given_i={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4575ccbc8fcda78d92d00327794d4545}
+      \strng{fullhash}{4575ccbc8fcda78d92d00327794d4545}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1992}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{ApJ, 396,L7}
+      \field{year}{1992}
+    \endentry
+    \entry{OAO}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=a307a24164d859d83bf831adacb30f94}{%
+           family={{Bless}},
+           family_i={B\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=a22d0d2af940683c8d79f284ec694d8f}{%
+           family={{Savage}},
+           family_i={S\bibinitperiod},
+           given={B.\bibnamedelimi D.},
+           given_i={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{68ea8aecae6ed436d6d2b23ab52761e2}
+      \strng{fullhash}{68ea8aecae6ed436d6d2b23ab52761e2}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1972}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{month}{02}
+      \field{title}{{Ultraviolet Photometry from the Orbiting Astronomical Observatory. II. Interstellar Extinction}}
+      \field{volume}{171}
+      \field{year}{1972}
+      \field{pages}{293}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/151282
+      \endverb
+    \endentry
+    \entry{DL98b}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=59ead412b098f923830e5050427832de}{%
+           family={Draine},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=1,hash=667e131ed4f7629535d00e81da3cf9a0}{%
+           family={Lazarian},
+           family_i={L\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e19e0beb8cfb2fc01cec181dc36c6797}
+      \strng{fullhash}{e19e0beb8cfb2fc01cec181dc36c6797}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Astrophys.J.508:157-179,1998}
+      \field{title}{Electric Dipole Radiation from Spinning Dust Grains}
+      \field{year}{1998}
+      \verb{doi}
+      \verb 10.1086/306387
+      \endverb
+      \verb{eprint}
+      \verb arXiv:astro-ph/9802239
+      \endverb
+    \endentry
+    \entry{magnetic}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=59ead412b098f923830e5050427832de}{%
+           family={{Draine}},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=1,hash=667e131ed4f7629535d00e81da3cf9a0}{%
+           family={{Lazarian}},
+           family_i={L\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e19e0beb8cfb2fc01cec181dc36c6797}
+      \strng{fullhash}{e19e0beb8cfb2fc01cec181dc36c6797}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1999}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{month}{02}
+      \field{title}{{Magnetic Dipole Microwave Emission from Dust Grains}}
+      \field{volume}{512}
+      \field{year}{1999}
+      \field{pages}{740\bibrangedash 754}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1086/306809
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9807009
+      \endverb
+      \keyw{ISM: DUST,EXTINCTION,ISM: ABUNDANCES,RADIATION MECHANISMS: THERMAL,RADIO CONTINUUM: ISM,ISM: Dust,Extinction,ISM: Abundances,Radiation Mechanisms: Thermal,radio continuum: ISM}
+    \endentry
+    \entry{DLi}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=59ead412b098f923830e5050427832de}{%
+           family={{Draine}},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=4a064ed5db67f33e068e56b6aeb90f67}{%
+           family={{Li}},
+           family_i={L\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{53fd59fa6b4d56989770ea4b282e8b84}
+      \strng{fullhash}{53fd59fa6b4d56989770ea4b282e8b84}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2001}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{month}{04}
+      \field{title}{{Infrared Emission from Interstellar Dust. I. Stochastic Heating of Small Grains}}
+      \field{volume}{551}
+      \field{year}{2001}
+      \field{pages}{807\bibrangedash 824}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1086/320227
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0011318
+      \endverb
+      \keyw{ISM: Dust,Extinction- Galaxies: ISM,Infrared: ISM: Continuum}
+    \endentry
+    \entry{DS}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=59ead412b098f923830e5050427832de}{%
+           family={{Draine}},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=897f426d5799f6c39c3cebd97cb21426}{%
+           family={{Sutin}},
+           family_i={S\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d114465e4dd9e84e2d80c9f1be8f859}
+      \strng{fullhash}{2d114465e4dd9e84e2d80c9f1be8f859}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1987}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{month}{09}
+      \field{title}{{Collisional charging of interstellar grains}}
+      \field{volume}{320}
+      \field{year}{1987}
+      \field{pages}{803\bibrangedash 817}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1086/165596
+      \endverb
+      \keyw{Charged Particles,Interstellar Matter,Particle Collisions,Charging,Cooling,Electron-Ion Recombination,Grain Size}
+    \endentry
+    \entry{DL98a}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=dd3e13b9168da61d502907dcbf9a01a5}{%
+           family={Draine},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=1,hash=0dd82d0867cce8d8cd5d0be9cc1e772e}{%
+           family={Lazarian},
+           family_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a10b2c4b9a553c7a2c8db55a4eeee98}
+      \strng{fullhash}{0a10b2c4b9a553c7a2c8db55a4eeee98}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{title}{Diffuse Galactic emission from spinning dust grains}
+      \field{year}{1998}
+    \endentry
+    \entry{Erickson}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3971b057ca8ca117df8b7c9aa6ec0983}{%
+           family={Erickson},
+           family_i={E\bibinitperiod},
+           given={W.\bibnamedelimi C.},
+           given_i={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3971b057ca8ca117df8b7c9aa6ec0983}
+      \strng{fullhash}{3971b057ca8ca117df8b7c9aa6ec0983}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelyear}{1957}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{title}{A Mechanism of Non-Thermal Radio-Noise Origin}
+      \field{year}{1957}
+    \endentry
+    \entry{Forrest}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4d05d8f559ba8fb53f9b8cc5ede44ff6}{%
+           family={{Forrest}},
+           family_i={F\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           given_i={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=0de78ead38bc170b61e4a6f0fd39f298}{%
+           family={{Gillett}},
+           family_i={G\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           given_i={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=38b5669c5768f6168ff7261c80751ef4}{%
+           family={{Stein}},
+           family_i={S\bibinitperiod},
+           given={W.\bibnamedelimi A.},
+           given_i={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5af75a303a77f1f9107abbc2c3873da4}
+      \strng{fullhash}{898a4b747ea5a83bba45b2a49687eb56}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{1975}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{month}{01}
+      \field{title}{{Circumstellar grains and the intrinsic polarization of starlight}}
+      \field{volume}{195}
+      \field{year}{1975}
+      \field{pages}{423\bibrangedash 440}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1086/153342
+      \endverb
+      \keyw{Cosmic Dust,Infrared Astronomy,Interstellar Matter,Optical Polarization,Stellar Envelopes,Stellar Radiation,Variable Stars,Absorption Spectra,Abundance,Black Body Radiation,Emission Spectra,Light Scattering,Silicates,Silicon Carbides}
+    \endentry
+    \entry{hensley}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=f57859312a0539fda20ed2a092631408}{%
+           family={{Hensley}},
+           family_i={H\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=8162c247d1d41dc96a93c0cfa86fc03f}{%
+           family={{Murphy}},
+           family_i={M\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=982d27b9f078de10816874f699ab903a}{%
+           family={{Staguhn}},
+           family_i={S\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff9105ccf973b139d120141a656fabd4}
+      \strng{fullhash}{df3633fc4275cab412b6ee8bd9415603}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2015}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{mnras}
+      \field{month}{05}
+      \field{title}{{Characterizing extragalactic anomalous microwave emission in NGC 6946 with CARMA}}
+      \field{volume}{449}
+      \field{year}{2015}
+      \field{pages}{809\bibrangedash 819}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/mnras/stv287
+      \endverb
+      \verb{eprint}
+      \verb 1411.7030
+      \endverb
+      \keyw{radiation mechanisms: general,ISM: general,radio continuum: ISM}
+    \endentry
+    \entry{Hensley2}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=83951f2eaea5613eca239f39e2b0a3b1}{%
+           family={Hensley},
+           family_i={H\bibinitperiod},
+           given={Brandon\bibnamedelima S.},
+           given_i={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=59ead412b098f923830e5050427832de}{%
+           family={Draine},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=d609a9124e37f9d7c7bc7a20d38d7f47}{%
+           family={Meisner},
+           family_i={M\bibinitperiod},
+           given={Aaron\bibnamedelima M.},
+           given_i={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1803ef853382aa6755b9e6c110379da2}
+      \strng{fullhash}{0d306c1881e1935ae5d22a5787d513c7}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{title}{A Case Against Spinning PAHs as the Source of the Anomalous Microwave Emission}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.3847/0004-637X/827/1/45
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1505.02157
+      \endverb
+    \endentry
+    \entry{Hoang}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=37d42536f5a3f6410b3344ecffe30e26}{%
+           family={Hoang},
+           family_i={H\bibinitperiod},
+           given={Thiem},
+           given_i={T\bibinitperiod}}}%
+        {{uniquename=1,hash=667e131ed4f7629535d00e81da3cf9a0}{%
+           family={Lazarian},
+           family_i={L\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8db58af71e0b7a17bbd0b9b38f0964f}
+      \strng{fullhash}{d8db58af71e0b7a17bbd0b9b38f0964f}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Astronomy}
+      \field{title}{Spinning Dust Emission from Wobbling Grains: Important Physical Effects and Implications}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1155/2012/208159
+      \endverb
+    \endentry
+    \entry{Hoyle}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ae74b4d090e71ba97e5a4d70f2634fc4}{%
+           family={Hoyle},
+           family_i={H\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=2162215a3b81cf695f899a2c6f32672e}{%
+           family={Wickramasinghe},
+           family_i={W\bibinitperiod},
+           given={N.\bibnamedelimi C.},
+           given_i={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{67f8d63edb2dbd6509bebd0862405acc}
+      \strng{fullhash}{67f8d63edb2dbd6509bebd0862405acc}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1970}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{month}{04}
+      \field{number}{5240}
+      \field{title}{Dust in Supernova Explosions}
+      \field{volume}{226}
+      \field{year}{1970}
+      \field{pages}{62\bibrangedash 63}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/226062a0
+      \endverb
+    \endentry
+    \entry{K96}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=52be4c1e0e607db71969e0c13b5616c0}{%
+           family={Kogut},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=dee74abbc257ab2d0b6f32c255b4dde2}{%
+           family={Banday},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=a876a2da7625c88a2a75869b0f382d18}{%
+           family={Bennet},
+           family_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc27d82511e03eb2a08396e018acb1b7}
+      \strng{fullhash}{5c41b71b0513521f9f4fb64a59c1ace4}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{1996}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{title}{High Latitude Galactic emission in the COBE differential microwave radiometer 2 year sky maps}
+      \field{year}{1996}
+    \endentry
+    \entry{L97}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=5ce893173990257a2846beac8aa89835}{%
+           family={Leitch},
+           family_i={L\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           given_i={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c3ff6a0a9d8cb6289846d19e559ed9f7}{%
+           family={Readhead},
+           family_i={R\bibinitperiod},
+           given={A.\bibnamedelimi C.\bibnamedelimi S.},
+           given_i={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=e5c505ad715ce12140594f108523a987}{%
+           family={Pearson},
+           family_i={P\bibinitperiod},
+           given={T.J.},
+           given_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=e6aaa8ba1fd1993b1c0ad915b99eb0e6}{%
+           family={Myers},
+           family_i={M\bibinitperiod},
+           given={S.\bibnamedelimi T.},
+           given_i={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a22eb03f06ea7f12160cea9693a013d}
+      \strng{fullhash}{8491f4cb3539366d13f0a2b7b1f85f14}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ}
+      \field{title}{An Anomalous Component of Galactic Emission}
+      \field{year}{1997}
+      \field{pages}{L23\bibrangedash L26}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1086/310823
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9705241
+      \endverb
+    \endentry
+    \entry{Mather}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0c22d7d9e2a910f82b9158597ade7030}{%
+           family={Mather},
+           family_i={M\bibinitperiod},
+           given={John\bibnamedelima C.},
+           given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c22d7d9e2a910f82b9158597ade7030}
+      \strng{fullhash}{0c22d7d9e2a910f82b9158597ade7030}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1982}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Cosmic Background Explorer (COBE) satellite, under study by NASA since 1976, will map the spectrum and the angular distribution of diffuse radiation from the universe over the entire wavelength range from 1 micron to 1.3 cm. It carries three instruments: a set of differential microwave radiometers (DMR) at 23.5, 31.4, 53, and 90 GHz, a far infrared absolute spectrophotometer (FIRAS) covering 1 to 100 cm-1, and a diffuse infrared background experiment (DIRBE) covering 1 to 300 microns. They will use the ideal space environment, a one year lifetime, and standard instrument techniques to achieve orders of magnitude improvements in sensitivity and accuracy, providing a fundamental data base for cosmology. The instruments are united by common purpose as well as similar environmental and orbital requirements. The data from all three experiments will be analyzed together, to distinguish nearby sources of radiation from the cosmologically interesting diffuse background radiations. Con-struction is planned to begin in 1982 for a launch in 1988.}
+      \field{journaltitle}{Optical Engineering}
+      \field{number}{4}
+      \field{title}{The Cosmic Background Explorer (COBE)}
+      \field{volume}{21}
+      \field{year}{1982}
+      \field{pages}{214769\bibrangedash 214769}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1117/12.7972975
+      \endverb
+    \endentry
+    \entry{MMP}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=15340e1ff6de55a71e9ecb1d4327935a}{%
+           family={{Mathis}},
+           family_i={M\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=879b50863c11894d767f70b51ffbb069}{%
+           family={{Mezger}},
+           family_i={M\bibinitperiod},
+           given={P.\bibnamedelimi G.},
+           given_i={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=4005a3a298c3398683669de6a8ec9fce}{%
+           family={{Panagia}},
+           family_i={P\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2438dcbc5eb0e6690abff28156fdad90}
+      \strng{fullhash}{830bdf88e96e88582963748d14741f69}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1983}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aap}
+      \field{month}{11}
+      \field{title}{{Interstellar radiation field and dust temperatures in the diffuse interstellar matter and in giant molecular clouds}}
+      \field{volume}{128}
+      \field{year}{1983}
+      \field{pages}{212\bibrangedash 229}
+      \range{pages}{18}
+      \keyw{Cosmic Dust,Interstellar Matter,Interstellar Radiation,Molecular Clouds,Graphite,Radiation Distribution,Radiative Transfer,Silicates,Temperature Profiles}
+    \endentry
+    \entry{Planck}{article}{}
+      \name{author}{216}{}{%
+        {{uniquename=0,hash=94c122bef4a4d18cc4b21919b02952ac}{%
+           family={{Planck\bibnamedelimb Collaboration}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=e7b6d047a9bae6f85dfe8e27de4d0e28}{%
+           family={{Ade,\bibnamedelimb P.\bibnamedelimi A.\bibnamedelimi R.}},
+           family_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=17c0378252b6a92c10285c754904190b}{%
+           family={{Aghanim,\bibnamedelimb N.}},
+           family_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=8924798c7bbe8d2370e07bb6d9a67ae8}{%
+           family={{Arnaud,\bibnamedelimb M.}},
+           family_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9b6a5eb45e76f24ee7a0e7a9472622a0}{%
+           family={{Ashdown,\bibnamedelimb M.}},
+           family_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=75b767a1420f411372ec1212bfe96053}{%
+           family={{Aumont,\bibnamedelimb J.}},
+           family_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=6734fbb2260f16d9eff32ec7c868f76d}{%
+           family={{Baccigalupi,\bibnamedelimb C.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=659dcacd010ebb2a9c9a2020ed31bba9}{%
+           family={{Balbi,\bibnamedelimb A.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=abd840647a5c0507e6a6944bf81c4ef1}{%
+           family={{Banday,\bibnamedelimb A.\bibnamedelimi J.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=91ef24b07358f49fb1ff189b73fe8839}{%
+           family={{Barreiro,\bibnamedelimb R.\bibnamedelimi B.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=c60bb265c5daf691de6adf58d6c1537f}{%
+           family={{Bartlett,\bibnamedelimb J.\bibnamedelimi G.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2549a154e75ccc9727433e9fbaa57f13}{%
+           family={{Battaner,\bibnamedelimb E.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=0c5c83464460014a5f08710308763d9d}{%
+           family={{Benabed,\bibnamedelimb K.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=42b16687eb3c6c587f3d4089f09accb2}{%
+           family={{Benoît,\bibnamedelimb A.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=bc98a6f0fb2c2965cf5b9ec07f2ef805}{%
+           family={{Bernard,\bibnamedelimb J.-P.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=f6875467a26834d8505647f95f3e2c2f}{%
+           family={{Bersanelli,\bibnamedelimb M.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=1d5000e180eab637fbb57407ab44c475}{%
+           family={{Bhatia,\bibnamedelimb R.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=171d83e580e8e9d3c964d55db1927e20}{%
+           family={{Bock,\bibnamedelimb J.\bibnamedelimi J.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=8cc51af2783eae49c2a060e986c495cf}{%
+           family={{Bonaldi,\bibnamedelimb A.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=41102e7b039e35a1cacdc151b072240b}{%
+           family={{Bond,\bibnamedelimb J.\bibnamedelimi R.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=6e00527b3d327f3afec3879495113659}{%
+           family={{Borrill,\bibnamedelimb J.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=f83692a24150037fffe273e1b53e0d2a}{%
+           family={{Bouchet,\bibnamedelimb F.\bibnamedelimi R.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=01b14025dfbf4eeb606d8d8d395b68a3}{%
+           family={{Boulanger,\bibnamedelimb F.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=fd54a246a58ad8d8c2ee6069acfcbe88}{%
+           family={{Bucher,\bibnamedelimb M.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=0c53bbc751450394a218a1c64454b38d}{%
+           family={{Burigana,\bibnamedelimb C.}},
+           family_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=23dd5d7036a0af0902358f76ad50c79a}{%
+           family={{Cabella,\bibnamedelimb P.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=5f71633c4f8bd7bf4674ea834fb29e75}{%
+           family={{Cappellini,\bibnamedelimb B.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=b08a1aefce7e535df1ddbf88607977d0}{%
+           family={{Cardoso,\bibnamedelimb J.-F.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=cb7a98b225ff1814c337c9e5e336baa5}{%
+           family={{Casassus,\bibnamedelimb S.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=c320084c69a542d63e90ada33d375fa4}{%
+           family={{Catalano,\bibnamedelimb A.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=bd222ab475094a321cab78ddc946320b}{%
+           family={{Cayón,\bibnamedelimb L.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=56ffbd13993f5979c31efa5363daa25f}{%
+           family={{Challinor,\bibnamedelimb A.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=670d523b76fad9e426f32414692046f3}{%
+           family={{Chamballu,\bibnamedelimb A.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=9de248b10e4156adea4d59faba027f0d}{%
+           family={{Chary,\bibnamedelimb R.-R.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=3cf86a2487d2aea77328185e3d0c9e6e}{%
+           family={{Chen,\bibnamedelimb X.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=edc647d01c75bef114c190ca7b1a927d}{%
+           family={{Chiang,\bibnamedelimb L.-Y.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=5477f4edde0e5a2689f16ce64bc3464f}{%
+           family={{Chiang,\bibnamedelimb C.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=8721b3c9fd1f1d38fb74195e6c5d399c}{%
+           family={{Christensen,\bibnamedelimb P.\bibnamedelimi R.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=b3ee5145407b10606a8e84d6291a2035}{%
+           family={{Clements,\bibnamedelimb D.\bibnamedelimi L.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=4e4293f42828ce158d7499229267b1bb}{%
+           family={{Colombi,\bibnamedelimb S.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=873c7bf8f95b818ee9169f049ee49e6a}{%
+           family={{Couchot,\bibnamedelimb F.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=9745d787ae72c182dab3a638c5b6ab5c}{%
+           family={{Coulais,\bibnamedelimb A.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=5bffdf8c53666c0d0d090ccac9930ebb}{%
+           family={{Crill,\bibnamedelimb B.\bibnamedelimi P.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=dd6effbf17c489c537a479d0504c847c}{%
+           family={{Cuttaia,\bibnamedelimb F.}},
+           family_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=11d165b80e9adbe84a76c958745bf6dd}{%
+           family={{Danese,\bibnamedelimb L.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=3cf99d163435183fb2210888c996156f}{%
+           family={{Davies,\bibnamedelimb R.\bibnamedelimi D.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=c34ccbe16424717954181570f257a08f}{%
+           family={{Davis,\bibnamedelimb R.\bibnamedelimi J.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=659595c65ce15e12f0210487a2a59ed8}{%
+           family={{de\bibnamedelimb Bernardis,\bibnamedelimb P.}},
+           family_i={d\bibinitperiod}}}%
+        {{uniquename=0,hash=1f2d0369c92e0364749a41e031832c7b}{%
+           family={{de\bibnamedelimb Gasperis,\bibnamedelimb G.}},
+           family_i={d\bibinitperiod}}}%
+        {{uniquename=0,hash=47fd3a5756e04e0897e5ff39300b38bd}{%
+           family={{de\bibnamedelimb Rosa,\bibnamedelimb A.}},
+           family_i={d\bibinitperiod}}}%
+        {{uniquename=0,hash=88107625d93a62eaa1dafb470b5b7e0e}{%
+           family={{de\bibnamedelimb Zotti,\bibnamedelimb G.}},
+           family_i={d\bibinitperiod}}}%
+        {{uniquename=0,hash=4afcb389fe7d691d1fe0543f983194d8}{%
+           family={{Delabrouille,\bibnamedelimb J.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=798cf65ea26863431f1c1b150600a366}{%
+           family={{Delouis,\bibnamedelimb J.-M.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=54e725bb43dfc2027f6eccff0163bd12}{%
+           family={{Dickinson,\bibnamedelimb C.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=862df9adae4dbf0f46cbbc607ddcf58c}{%
+           family={{Donzelli,\bibnamedelimb S.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=c1d6f1d49a71312e1a4f472ff7c5508d}{%
+           family={{Doré,\bibnamedelimb O.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=c890a100c042b07f2a951e185bdaa0ac}{%
+           family={{Dörl,\bibnamedelimb U.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=003b8db25237ccb9eec6c10f36e7efef}{%
+           family={{Douspis,\bibnamedelimb M.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=f470d6f9c4819088b91cf5f6da892550}{%
+           family={{Dupac,\bibnamedelimb X.}},
+           family_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=8c021c3aa1a7d12cf99927be11b1218a}{%
+           family={{Efstathiou,\bibnamedelimb G.}},
+           family_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=0277adf361d18106e018d4ee8ce7e0fe}{%
+           family={{Enßlin,\bibnamedelimb T.\bibnamedelimi A.}},
+           family_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=f269fe2f178361390b654c1e2f7ef28d}{%
+           family={{Eriksen,\bibnamedelimb H.\bibnamedelimi K.}},
+           family_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=e1ad074fe2788cf71c6f9c72d9bead94}{%
+           family={{Finelli,\bibnamedelimb F.}},
+           family_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=c19d605b68d229f26fd881ba1351c155}{%
+           family={{Forni,\bibnamedelimb O.}},
+           family_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=5680896bc0944c70d6424053a8bf3706}{%
+           family={{Frailis,\bibnamedelimb M.}},
+           family_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=63807320669b8d804789302eb061c80d}{%
+           family={{Franceschi,\bibnamedelimb E.}},
+           family_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=6a9a6b9f8650fc53d47152a2d7efffe7}{%
+           family={{Galeotta,\bibnamedelimb S.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=ae7cf5ed26006b32f4452ff48ee8c02f}{%
+           family={{Ganga,\bibnamedelimb K.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=46606a707dfc35a676cdbd9c0f2c62f8}{%
+           family={{Génova-Santos,\bibnamedelimb R.\bibnamedelimi T.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=008c4a026b130b72beb712483270613d}{%
+           family={{Giard,\bibnamedelimb M.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=30183bf2df060982cb44770858f412dc}{%
+           family={{Giardino,\bibnamedelimb G.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=5dd11bb79afc130d8e49b30952a4e34d}{%
+           family={{Giraud-Héraud,\bibnamedelimb Y.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=76c0efaa6de4b153bea36840d17e48ab}{%
+           family={{González-Nuevo,\bibnamedelimb J.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=4345a0eb77ef96cfe2e870c6ee599bfb}{%
+           family={{Górski,\bibnamedelimb K.\bibnamedelimi M.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=36d44c28d37f505fbb47547cfc19b1a3}{%
+           family={{Gratton,\bibnamedelimb S.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=63b9a8bb9b445ac6ea1f00751b71c55f}{%
+           family={{Gregorio,\bibnamedelimb A.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=83a4a15d07596a8bbf67cabb853d48ae}{%
+           family={{Gruppuso,\bibnamedelimb A.}},
+           family_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=ecf55a9c2a2b8bf4e057a1cb98d9fd3d}{%
+           family={{Hansen,\bibnamedelimb F.\bibnamedelimi K.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=e9854fd283c0f6fce5e7d68253126322}{%
+           family={{Harrison,\bibnamedelimb D.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=bee5a2bbabc8ca74c9fc523ac7a7cd7b}{%
+           family={{Helou,\bibnamedelimb G.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=d6f1ef66a659598c77435d54a62633bd}{%
+           family={{Henrot-Versillé,\bibnamedelimb S.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=37ef6946536a814b7a003282fcdcf297}{%
+           family={{Herranz,\bibnamedelimb D.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=f819b20d68e279a60ad74d99576642b9}{%
+           family={{Hildebrandt,\bibnamedelimb S.\bibnamedelimi R.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=16f4d6b821c1bd1a2d9b01573431fd09}{%
+           family={{Hivon,\bibnamedelimb E.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=c4c4b637a0c3dd6fedc255e6fc742690}{%
+           family={{Hobson,\bibnamedelimb M.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=9d9ee0747e3ef59c1999a6fec4f50589}{%
+           family={{Holmes,\bibnamedelimb W.\bibnamedelimi A.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=aa9522e6e8ed902c10b1271cbae3ea45}{%
+           family={{Hovest,\bibnamedelimb W.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=d4dd275550481d84188e0c308eb13d5a}{%
+           family={{Hoyland,\bibnamedelimb R.\bibnamedelimi J.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=9330c322c745fd8d9e4bf19fa42bfc95}{%
+           family={{Huffenberger,\bibnamedelimb K.\bibnamedelimi M.}},
+           family_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=097a1d85616c495b3be5eddfbfbce2af}{%
+           family={{Jaffe,\bibnamedelimb T.\bibnamedelimi R.}},
+           family_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=0f76fb91a79afd4c2badc8e7e674f74e}{%
+           family={{Jaffe,\bibnamedelimb A.\bibnamedelimi H.}},
+           family_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=200c0e930ee2605c92299b89ffb07d76}{%
+           family={{Jones,\bibnamedelimb W.\bibnamedelimi C.}},
+           family_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=fc2ea0323681c46718d19a1df615730f}{%
+           family={{Juvela,\bibnamedelimb M.}},
+           family_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=d379f1872097fa024ce992435e500237}{%
+           family={{Keihänen,\bibnamedelimb E.}},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=a657d69db2b0681f33c626a0b7035831}{%
+           family={{Keskitalo,\bibnamedelimb R.}},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=597d02d9fb1e16febfccb0ecf879ec5f}{%
+           family={{Kisner,\bibnamedelimb T.\bibnamedelimi S.}},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=50f9f5fac04c9c3b85609c5a8bb33c6a}{%
+           family={{Kneissl,\bibnamedelimb R.}},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=db4b9fa392f78c4e2855a33ff48a6792}{%
+           family={{Knox,\bibnamedelimb L.}},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=2f60441e16391817a91f785ff908783e}{%
+           family={{Kurki-Suonio,\bibnamedelimb H.}},
+           family_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=456dfcd747e4026278ff8a9b707ae424}{%
+           family={{Lagache,\bibnamedelimb G.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=e495964ce31510c1962e5ecf33a6d9ac}{%
+           family={{Lähteenmäki,\bibnamedelimb A.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=008bc6059db55dfd9dc14e235c250330}{%
+           family={{Lamarre,\bibnamedelimb J.-M.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=d8bcee0c38aa77fcb4de316b4366b6a7}{%
+           family={{Lasenby,\bibnamedelimb A.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=7159cad6e12332fe59791dfeeebc46c0}{%
+           family={{Laureijs,\bibnamedelimb R.\bibnamedelimi J.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=bc993e60ede257df746ae1fb0a857526}{%
+           family={{Lawrence,\bibnamedelimb C.\bibnamedelimi R.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=02ab379c707834ac4f946bd651cd62bd}{%
+           family={{Leach,\bibnamedelimb S.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=e8c904c4505b4b328ae0bbbc24528857}{%
+           family={{Leonardi,\bibnamedelimb R.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=81ed41f235c224e3be132ccc1182f2f1}{%
+           family={{Lilje,\bibnamedelimb P.\bibnamedelimi B.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=eaab48e3aeaf6207b9edabfcb512481b}{%
+           family={{Linden-Vørnle,\bibnamedelimb M.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=9da3c96b4fd12c58c9d18be58d944914}{%
+           family={{López-Caniego,\bibnamedelimb M.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=45ea201075c4ae7b3f7ec93e44b1e8ca}{%
+           family={{Lubin,\bibnamedelimb P.\bibnamedelimi M.}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=63b56e013c089efc48eab4e8ccd4faa3}{%
+           family={{Macías-Pérez,\bibnamedelimb J.\bibnamedelimi F.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=778878cee0da368a5315fd9e5b24ea54}{%
+           family={{MacTavish,\bibnamedelimb C.\bibnamedelimi J.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=77ba4199b70a2efd7b03096bf0b91aec}{%
+           family={{Maffei,\bibnamedelimb B.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=f9fb2a55d76aabe696f9c342262a5972}{%
+           family={{Maino,\bibnamedelimb D.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=fbe2969e6c66a77bac60b296434600da}{%
+           family={{Mandolesi,\bibnamedelimb N.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=55251b8e0c03f97dcdbb510c47462961}{%
+           family={{Mann,\bibnamedelimb R.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=d6b36bab8445454e6abdfc4252ed3fad}{%
+           family={{Maris,\bibnamedelimb M.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=390ba4d409ea0b3c704028c2e1e31dcd}{%
+           family={{Marshall,\bibnamedelimb D.\bibnamedelimi J.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=08e3b388a9c19b78a934e2909228c29d}{%
+           family={{Martínez-González,\bibnamedelimb E.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=d5a8f02cc76cbcbef972e13ce78ccdd5}{%
+           family={{Masi,\bibnamedelimb S.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=59287d78860b098f3078ff195f868f4f}{%
+           family={{Matarrese,\bibnamedelimb S.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=0f2daa9cf67dcf068aa0e52a3e644ac6}{%
+           family={{Matthai,\bibnamedelimb F.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=7104e781b83993d1d0a2dbe5566203c6}{%
+           family={{Mazzotta,\bibnamedelimb P.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=f1dfd20a3443c643875ca12460705b93}{%
+           family={{McGehee,\bibnamedelimb P.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=73182d1a650c2483df0be45e931e4879}{%
+           family={{Meinhold,\bibnamedelimb P.\bibnamedelimi R.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=4117dee58559f9ab13f21a2210ddb75f}{%
+           family={{Melchiorri,\bibnamedelimb A.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a4b25880d7ea17b6765eff167f5e83bc}{%
+           family={{Mendes,\bibnamedelimb L.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=62d46048f6389000390a5f9d940d458e}{%
+           family={{Mennella,\bibnamedelimb A.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=7b8afe266d243bea45ab6bed7db4f306}{%
+           family={{Mitra,\bibnamedelimb S.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=117cd8a19cfa84019f5d20a0555ee96b}{%
+           family={{Miville-Deschênes,\bibnamedelimb M.-A.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=deaf2d748af90491844fa6dc185b0e56}{%
+           family={{Moneti,\bibnamedelimb A.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a760f4f70b0bb96ba1fc8ea2dbf21001}{%
+           family={{Montier,\bibnamedelimb L.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=392c1adcd98669fe669b8355f1f33fa2}{%
+           family={{Morgante,\bibnamedelimb G.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=0608dc776f295201906f416063c611ab}{%
+           family={{Mortlock,\bibnamedelimb D.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=f7f4bae8c2b55cbdc41a4de24ea02491}{%
+           family={{Munshi,\bibnamedelimb D.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=95a5b620b4371ba42e7b23e29a23b801}{%
+           family={{Murphy,\bibnamedelimb A.}},
+           family_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=59154866fb9012ecedfd49e9c13c0c26}{%
+           family={{Naselsky,\bibnamedelimb P.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=a5a05d2676438e86202d6224fb8e3930}{%
+           family={{Natoli,\bibnamedelimb P.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=ca537567e729f53f72a2caf63b1dc044}{%
+           family={{Netterfield,\bibnamedelimb C.\bibnamedelimi B.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=f4239a3cdaa75eef05414c9a7b73f3ef}{%
+           family={{Nørgaard-Nielsen,\bibnamedelimb H.\bibnamedelimi U.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=853bd1c53be1eae51b1186af3a5b5db5}{%
+           family={{Noviello,\bibnamedelimb F.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=befad84365ad8765d2118809badc3eac}{%
+           family={{Novikov,\bibnamedelimb D.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=362bd7e734d490bef5f1978c8406504a}{%
+           family={{Novikov,\bibnamedelimb I.}},
+           family_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=a18cf86c203b2ba2ec19417e18fa62d4}{%
+           family={{O’Dwyer,\bibnamedelimb I.\bibnamedelimi J.}},
+           family_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=6b663d747c97ee77d5df3b32a75487d0}{%
+           family={{Osborne,\bibnamedelimb S.}},
+           family_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=5674841084b8f6f5bf99a160692d4e1f}{%
+           family={{Pajot,\bibnamedelimb F.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=a81abd08c947ea33c18ce48c2ca35a0f}{%
+           family={{Paladini,\bibnamedelimb R.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=54f84e339abae8c6964972fee051af71}{%
+           family={{Partridge,\bibnamedelimb B.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=2e34231854299645486d12366fbc91ef}{%
+           family={{Pasian,\bibnamedelimb F.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=ae3c07926d31e68aa25ff5299f501a22}{%
+           family={{Patanchon,\bibnamedelimb G.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=a5d09a377afc5948a8f273b0ef791b1c}{%
+           family={{Pearson,\bibnamedelimb T.\bibnamedelimi J.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=11ea9a21a60c084ec14904d30f6d2496}{%
+           family={{Peel,\bibnamedelimb M.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=ac184db78fbd4a7ae3d7ae4b69cfcce7}{%
+           family={{Perdereau,\bibnamedelimb O.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=402c196215a2ae6fde2f0789920053ae}{%
+           family={{Perotto,\bibnamedelimb L.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=015d417572c6f5b31d06a5369c00e530}{%
+           family={{Perrotta,\bibnamedelimb F.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=d281b372e2f81cd0fd0e5c6c8f6150f9}{%
+           family={{Piacentini,\bibnamedelimb F.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=38ecb12efd594a709403cb0f6636a171}{%
+           family={{Piat,\bibnamedelimb M.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=45f101ac8603ef79a98a10dd5fe0c54f}{%
+           family={{Plaszczynski,\bibnamedelimb S.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=5ccba80458f868a596e182ab6f6080c0}{%
+           family={{Platania,\bibnamedelimb P.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=c641f68c1f95394784610df4980ba21c}{%
+           family={{Pointecouteau,\bibnamedelimb E.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=4ea735599990ca6644502ee22ca996e7}{%
+           family={{Polenta,\bibnamedelimb G.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=322cedbcee0530cbb8a55c0aeacda68a}{%
+           family={{Ponthieu,\bibnamedelimb N.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=97255226973406849f535bd26a43a527}{%
+           family={{Poutanen,\bibnamedelimb T.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=abcd1578d2a7f22be1b522e974d3193a}{%
+           family={{Prézeau,\bibnamedelimb G.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=436cd959b1ac48f7646f91ec301c888e}{%
+           family={{Procopio,\bibnamedelimb P.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=a0b96e8f730b75f5fc2595a7e815dd90}{%
+           family={{Prunet,\bibnamedelimb S.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=aead6cf31111fbe81d4dc213b6694cd1}{%
+           family={{Puget,\bibnamedelimb J.-L.}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=319a3e1e17abce0c37930eb7d41986bd}{%
+           family={{Reach,\bibnamedelimb W.\bibnamedelimi T.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=f313409cd2ab11aa3074a75d6c0e3020}{%
+           family={{Rebolo,\bibnamedelimb R.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=964b35e9a1f3fc642bcbaf993bf7b456}{%
+           family={{Reich,\bibnamedelimb W.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=152ab748011ecfa5b9c30392065c7649}{%
+           family={{Reinecke,\bibnamedelimb M.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=316bf8cf78248dadf117e6cd9feca463}{%
+           family={{Renault,\bibnamedelimb C.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=2579fdcac14623e9013ad9a7e0406aef}{%
+           family={{Ricciardi,\bibnamedelimb S.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=c75fe491ec2484be06931ed07246cc5f}{%
+           family={{Riller,\bibnamedelimb T.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=30a9020032298815c57a1776d88332b0}{%
+           family={{Ristorcelli,\bibnamedelimb I.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=2aadb0f3944b70eca80bcf283d166e4e}{%
+           family={{Rocha,\bibnamedelimb G.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=c084a1305ada72dbfe4697a221e33936}{%
+           family={{Rosset,\bibnamedelimb C.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=9d00a2a66b4fa266c23440f27c6faae1}{%
+           family={{Rowan-Robinson,\bibnamedelimb M.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=74cc19d71b2ac10d8d72355c7e129cd9}{%
+           family={{Rubiño-Martín,\bibnamedelimb J.\bibnamedelimi A.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=49f759491792619d7457fc36ef8affc3}{%
+           family={{Rusholme,\bibnamedelimb B.}},
+           family_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=707d741430f415f18ee76f02d41bf191}{%
+           family={{Sandri,\bibnamedelimb M.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=60b1ee4c3afa2e0280e995c4bb8f1f17}{%
+           family={{Santos,\bibnamedelimb D.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=8fe7396e26d33b1805d527449c0a2dae}{%
+           family={{Savini,\bibnamedelimb G.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=451d15e835b710ad813bc1338ba1edc7}{%
+           family={{Scott,\bibnamedelimb D.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=18542a0abdeb34708858365a903e6756}{%
+           family={{Seiffert,\bibnamedelimb M.\bibnamedelimi D.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=f8573a2f5a35553c027b4b2567530729}{%
+           family={{Shellard,\bibnamedelimb P.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=802b2e6c6a6ea8cd0b4034b11bf0b309}{%
+           family={{Smoot,\bibnamedelimb G.\bibnamedelimi F.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=6e55bdad755471dd6dd6a0cb740c04a5}{%
+           family={{Starck,\bibnamedelimb J.-L.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=dde98e222610199b6b07634ecbbea249}{%
+           family={{Stivoli,\bibnamedelimb F.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=e6258f25af0d7763244630d94584543c}{%
+           family={{Stolyarov,\bibnamedelimb V.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=7ea86d27b4ec9710564ea4c59c757e1c}{%
+           family={{Stompor,\bibnamedelimb R.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=b1790214610d98a588dbfacaa8b496e4}{%
+           family={{Sudiwala,\bibnamedelimb R.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=b71e80e18db9e1e18c181ddf7168a73d}{%
+           family={{Sygnet,\bibnamedelimb J.-F.}},
+           family_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=da16bfc6ead51e44672a53923dd32355}{%
+           family={{Tauber,\bibnamedelimb J.\bibnamedelimi A.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=d8e636be0acb275a4d85abe708edfff1}{%
+           family={{Terenzi,\bibnamedelimb L.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=ea51242d07ec844504a1c529b95441da}{%
+           family={{Toffolatti,\bibnamedelimb L.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=f3ecf7adb8c5467e74bb80500d77ea8d}{%
+           family={{Tomasi,\bibnamedelimb M.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=029eda890870d4cbf77b5e431085dca2}{%
+           family={{Torre,\bibnamedelimb J.-P.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=fc7ff9281fdeeaaf916fd2f8901af1c4}{%
+           family={{Tristram,\bibnamedelimb M.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=7566dc1c4990616bf8a6b99dbcf0658c}{%
+           family={{Tuovinen,\bibnamedelimb J.}},
+           family_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=c48371770aeeed00ed4515a24c4c5b9f}{%
+           family={{Umana,\bibnamedelimb G.}},
+           family_i={U\bibinitperiod}}}%
+        {{uniquename=0,hash=eda840d4094484c6f7f8e83159e48460}{%
+           family={{Valenziano,\bibnamedelimb L.}},
+           family_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=42c57008b8daaa392e9de12cbf692c71}{%
+           family={{Varis,\bibnamedelimb J.}},
+           family_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=7279e6778329b09e98c5c8d92d0dc3a5}{%
+           family={{Verstraete,\bibnamedelimb L.}},
+           family_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=5b11962752602cc66e0eaf934e0ac7f7}{%
+           family={{Vielva,\bibnamedelimb P.}},
+           family_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=14e8338e60b434d8766d5e3368def4eb}{%
+           family={{Villa,\bibnamedelimb F.}},
+           family_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=fd83f2b47690eedbb67c998e4f2623ed}{%
+           family={{Vittorio,\bibnamedelimb N.}},
+           family_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=1dfb433696dbc2a1072b11abeb6bdad3}{%
+           family={{Wade,\bibnamedelimb L.\bibnamedelimi A.}},
+           family_i={W\bibinitperiod}}}%
+        {{uniquename=0,hash=b59a83aaec59039769ddb0f77c959701}{%
+           family={{Wandelt,\bibnamedelimb B.\bibnamedelimi D.}},
+           family_i={W\bibinitperiod}}}%
+        {{uniquename=0,hash=013dbef42372500e929d622a198983bd}{%
+           family={{Wtson,\bibnamedelimb R.}},
+           family_i={W\bibinitperiod}}}%
+        {{uniquename=0,hash=ccf61df0db79c6bbafb65c8991477959}{%
+           family={{Wilkinson,\bibnamedelimb A.}},
+           family_i={W\bibinitperiod}}}%
+        {{uniquename=0,hash=513fe0120fba785463fb84d18fd02224}{%
+           family={{Ysard,\bibnamedelimb N.}},
+           family_i={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=2974bfd4de9339193acc44b4b39633ca}{%
+           family={{Yvon,\bibnamedelimb D.}},
+           family_i={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=7e1adf536e2512375efd924daa901627}{%
+           family={{Zacchei,\bibnamedelimb A.}},
+           family_i={Z\bibinitperiod}}}%
+        {{uniquename=0,hash=f0e0796afdfc09f372ddd3554b48c77a}{%
+           family={{Zonca,\bibnamedelimb A.}},
+           family_i={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{1051df95ca7e49ec4b6876a591137642}
+      \strng{fullhash}{62ad37f650307b99ff1fe2cd6b60b3d9}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Planck early results. XX. New light on anomalous microwave emission from spinning dust grains}
+      \field{volume}{536}
+      \field{year}{2011}
+      \field{pages}{A20}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201116470
+      \endverb
+    \endentry
+    \entry{Purcell}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=801ee2b38bc334245a54f636e1ed3f61}{%
+           family={Purcell},
+           family_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{801ee2b38bc334245a54f636e1ed3f61}
+      \strng{fullhash}{801ee2b38bc334245a54f636e1ed3f61}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{1979}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{ApJ, 231,404}
+      \field{year}{1979}
+    \endentry
+    \entry{Seaton}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7346997f60e8b548ce473645b49610fa}{%
+           family={Seaton},
+           family_i={S\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7346997f60e8b548ce473645b49610fa}
+      \strng{fullhash}{7346997f60e8b548ce473645b49610fa}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1979}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{title}{Interstellar extinction in the UV}
+      \field{year}{1979}
+    \endentry
+    \entry{Relikt}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=736accc91f0edfdb8e729936ced3477c}{%
+           family={Strukov},
+           family_i={S\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           given_i={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=3b04210bbb3cf0c8ba8bde76256d8fa8}{%
+           family={Skulachev},
+           family_i={S\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           given_i={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{dddb4ddf4b7e84fbc9e6c3056d5a2960}
+      \strng{fullhash}{dddb4ddf4b7e84fbc9e6c3056d5a2960}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1986}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Itogi Nauki i Tekhniki Seriia Astronomiia}
+      \field{title}{Satellite-borne investigation of the relic-radiation anisotropy - The Relikt experiment}
+      \field{volume}{31}
+      \field{year}{1986}
+      \field{pages}{37\bibrangedash 73}
+      \range{pages}{37}
+      \keyw{Astronomical Satellites,Cosmology,Prognoz Satellites,Radio Astronomy,Relic Radiation,Anisotropy,Millimeter Waves,Radio Sources (Astronomy),Satellite-Borne Instruments,Spaceborne Astronomy}
+    \endentry
+    \entry{Trumpler}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=422fb9a55520715756cb0e904216fce3}{%
+           family={Trumpler},
+           family_i={T\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{422fb9a55520715756cb0e904216fce3}
+      \strng{fullhash}{422fb9a55520715756cb0e904216fce3}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{1930}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific, Vol. 42, No. 248, p.214}
+      \field{title}{Absorption of Light in the Galactic System}
+      \field{year}{1930}
+    \endentry
+    \entry{WD01a}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e27af43dd465bda6e4a55a441cfdb324}{%
+           family={Weingartner},
+           family_i={W\bibinitperiod},
+           given={Joseph\bibnamedelima C.},
+           given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=1,hash=59ead412b098f923830e5050427832de}{%
+           family={Draine},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{61fda88ea228bd1dfa67b2c4150d5fc3}
+      \strng{fullhash}{61fda88ea228bd1dfa67b2c4150d5fc3}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{extrayear}{1}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ApJ, 548:296-309}
+      \field{title}{Dust Grain-Size distribution and Extinction in the Milky Way, Large Magellanic Cloud, and Small Magellanic Cloud}
+      \field{year}{2001}
+    \endentry
+    \entry{WD01b}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e27af43dd465bda6e4a55a441cfdb324}{%
+           family={Weingartner},
+           family_i={W\bibinitperiod},
+           given={Joseph\bibnamedelima C.},
+           given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=1,hash=59ead412b098f923830e5050427832de}{%
+           family={Draine},
+           family_i={D\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{61fda88ea228bd1dfa67b2c4150d5fc3}
+      \strng{fullhash}{61fda88ea228bd1dfa67b2c4150d5fc3}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{extrayear}{2}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal Supplement Series}
+      \field{number}{2}
+      \field{title}{Photoelectric Emission from Interstellar Dust: Grain Charging and Gas Heating}
+      \field{volume}{134}
+      \field{year}{2001}
+      \field{pages}{263}
+      \range{pages}{1}
+      \verb{url}
+      \verb http://stacks.iop.org/0067-0049/134/i=2/a=263
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
